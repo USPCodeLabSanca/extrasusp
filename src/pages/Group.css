@@ -1,0 +1,166 @@
+/* Container da página */
+.page-container {
+    display: flex;
+    flex-direction: column; /* Garantir uma coluna única */
+    align-items: center; /* Centralizar os itens horizontalmente */
+    padding: 0 20px; /* Adicionar espaçamento nas laterais */
+}
+
+.nome{
+margin: 15px;   
+ background: #1094AB;
+    color:whitesmoke;
+    font-weight: bold;
+    padding: 7px ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Seção Hero (Imagem de fundo e nome do grupo) */
+.hero-section {
+
+  
+    color:rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+}
+
+/* Seção Sobre o Grupo */
+.about-section {
+  
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.col{
+    margin-top: 5%;
+    width: 50px;
+    margin-right: 30px ;
+    padding-left: 10%;
+
+    
+}
+#rede{
+    margin-right: 3%;
+}
+.about-content p {
+    color: rgb(0, 0, 0);
+
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Alinha ao tamanho do outro card */
+    padding: 20px; /* Espaçamento interno */
+    margin: 40px auto; /* Centraliza horizontalmente */
+    text-align: center;
+   
+}
+
+.saiba-mais-btn {
+    background-color: #1e90ff;
+    padding: 10px 20px;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+/* Seção Frentes de Estudo - Ajustar tamanho para alinhar */
+.study-fronts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    margin: 40px auto; /* Centraliza horizontalmente */
+    text-align: center;
+}
+
+.study-card {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Alinha ao tamanho do outro card */
+    padding: 20px; /* Espaçamento interno */
+    margin: 40px auto; /* Centraliza horizontalmente */
+    text-align: center;
+   
+}
+
+/* Seção Outras Atividades - Remover excesso */
+/* Seção Outras Atividades - Ajuste principal */
+.other-activities {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Alinha ao tamanho do outro card */
+    padding: 20px; /* Espaçamento interno */
+    margin: 40px auto; /* Centraliza horizontalmente */
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+/* Conteúdo de texto */
+.other-activities h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.other-activities p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+/* Botão */
+.ver-atividades-btn {
+    background-color: #1e90ff;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* Rodapé */
+.footer {
+    width: 100%;
+    background-color: #191946;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1.2rem;
+}
+
+.ver-gitbook-btn {
+    background-color: #1e90ff;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+

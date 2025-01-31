@@ -1,0 +1,13 @@
+.posicao-navbar{
+    padding-left: 50px;
+    padding-right: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+}
+
+.navv{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+    font-size: 17px;
+}

@@ -1,0 +1,805 @@
+{
+  "institutes": [
+      {
+          "id": 1,
+          "logo": "http://4.bp.blogspot.com/-tbAWK7KCPq0/TbVg-SmjNFI/AAAAAAAAAtQ/QboG2_SDuNo/s1600/logo+fiinal.jpg",
+          "video": "https://youtu.be/bwzYzp6RVAk",
+          "image1": "https://imagens.usp.br/wp-content/uploads/ICMC-Foto-MS_U0Y0891.jpg",
+          "image2": "https://icmc.usp.br/imprensa/5636/estudantes-da-usp-podem-pedir-transferencia-para-os-cursos-do-icmc.jpg",
+          "acronym": "ICMC",
+          "name": "Instituto de Ciências Matemáticas e de Computação",
+          "location": "São Carlos",
+          "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.1115954047923!2d-47.897507225648944!3d-22.007034679898492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b877325a2f2381%3A0x7923e6d8ad682ad1!2sICMC%20-%20Instituto%20De%20Ci%C3%AAncias%20Matem%C3%A1ticas%20e%20de%20Computa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1737663979013!5m2!1spt-BR!2sbr" ,
+          "courses": [
+              "Bacharelado em Ciências de Dados",
+              "Bacharelado em Ciências de Computação",
+              "Licenciatura em Ciências Exatas",
+              "Engenharia de Computação",
+              "Bacharelado em Estatística e Ciência de Dados",
+              "Bacharelado em Matemática Aplicada e Computação Científica",
+              "Bacharelado em Matemática",
+              "Licenciatura em Matemática",
+              "Bacharelado em Sistemas de Informação"
+          ],
+          "infra": [
+              "Biblioteca",
+              "Laboratórios de Pesquisa",
+              "Laboratórios de Ensino",
+              "Auditório",
+              "Prédio de Informática",
+              "Museu de Computação"
+          ],
+          "groups":[
+            {
+                "id":1,
+                "name": "GANESH",
+                "logo": "https://yt3.googleusercontent.com/ytc/AIdro_kNxCzmKdVsP-YU2agg348XdvvHt9XzgVSQujyKx4IELPQ=s200-c-k-c0x00ffffff-no-rj",
+                "miniDescription": "Grupo extracurricular focado em segurança da informação",
+                "detailedDescription":"Temos como nossa missão adquirir e divulgar conhecimentos na área de segurança da informação para estudantes de graduação e para a comunidade geral.",
+                "otherActivities": "O grupo constantemente estuda e desenvolve projetos e materiais referentes à área de Segurança da Informação. Um dos nossos objetivos é desenvolver projetos e atividades que interagem com o público externo, como o nosso canal do YouTube, o processo anual de ingressos e participações em competições de área de Segurança da Informação - Capture The Flag (CTF)",
+                "site": "https://ganesh.icmc.usp.br/",
+               
+                        "instagram": "https://www.instagram.com/ganeshicmc/", 
+                        "youtube": "https://www.youtube.com/c/ganeshicmc",
+                        "telegram": ""
+                        
+                   
+            },
+            {
+              "id":2,
+                "name": "Campanha USP do Agasalho",
+                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbK0vs5elmAFnWu1DzNJoAaJC_heDXL1DFQA&s200",
+                "miniDescription": "Grupo extracurricular focado em arrecadar e destinar roupas para entidades sociais da cidade",
+                "detailedDescription":"As atividade do projeto consistem em recolher roupas por meio de doações e destiná-las, de forma adequada, para as entidades. Além disso, realizar visitas e intervenções nas entidades auxiliadas. O público que o projeto ajuda são as pessoas em situação de vulnerabilidade social que estejam precisando de doações de roupas, sendo atendida ou não por uma entidade assistencialista.",
+                "otherActivities": "Anualmente realizamos o nosso maior evento, o Saída às Ruas, em que os voluntários percorrem diversos bairros da cidade arrecadando doações de porta em porta.",
+                "site": "https://campanhauspdoagasalho.eesc.usp.br/#",
+                
+                        "instagram": "https://www.instagram.com/instagasalho/", 
+                        "youtube": "https://www.youtube.com/channel/UC6c8lx8ElTfp8heMCbjBCWw",
+                        "telegram": ""
+
+                   
+            },
+            {
+              "id":3,
+                "name": "Corvus AI",
+                "logo": "https://ugc.production.linktr.ee/190663af-0371-4101-9225-f9f7b528790c_Camada-1.png?io=true&size=avatar-v3_0&width=200&height=200",
+                "miniDescription": "Grupo extracurricular focado em pesquisa e desenvolvimento cientifico voltada para IA ",
+                "detailedDescription":"Cursos de introdução à inteligência artificial e teoria da computação e cursos introdução aos laboratórios de pesquisa; Palestras e apresentações de membros de IC, pós-graduandos e profissionais da área; Produção de pesquisa e aplicações relacionadas à inteligência artificial.",
+                "otherActivities": "",
+                "site": "https://corvus.icmc.usp.br",
+               
+                        "instagram": "https://www.instagram.com/corvus.ai_/", 
+                        "youtube": "",
+                        "telegram": ""
+
+                    
+            },
+            {
+              "id":4,
+                "name": "DATA",
+                "logo": "https://yt3.googleusercontent.com/QOrTmQczfI3AgWRJncrvlAr0X8BCtD27lAdpaXeBhcOrSPrq1G5eGnQpFdUwT5Q7NhbzL1bK2A=s200-c-k-c0x00ffffff-no-rj",
+                "miniDescription": "Grupo extracurricular focado em ciência de dados e aprendizado de máquina",
+                "detailedDescription":"Grupo de Extensão do  ICMC-USP  focado em Ciência de Dados e Aprendizado de Máquina. Por meio de aulas, eventos, grupos de estudo e palestras, a entidade tem a missão de unir a indústria, o mundo acadêmico e personas interessadas, de forma que todos possam criar conexões importantes para sua vida e carreira enquanto aprendem.",
+                "otherActivities": "O Data busca integrar estudantes, acadêmicos e profissionais do setor, promovendo a troca de conhecimento e o desenvolvimento de habilidades técnicas. Através de aulas, eventos, grupos de estudo e palestras, o grupo facilita o acesso a tecnologias de ponta e práticas atuais, preparando seus membros para os desafios do mercado de trabalho.",
+                "site": "https://dataicmc.vercel.app/br",
+               
+                        "instagram": "https://www.instagram.com/data.icmc/", 
+                        "youtube": "https://www.youtube.com/c/DataICMC",
+                        "telegram":""
+                    
+            },
+            {
+              "id":5,
+                "name": "GELOS",
+                "logo": "https://media.licdn.com/dms/image/v2/C560BAQF6S3TcSe5Ajw/company-logo_200_200/company-logo_200_200/0/1643997499541/gelos_icmc_logo?e=2147483647&v=beta&t=Dx5Xix9xyv11QPjR83A-aF-tIFkM1lHV1YTunqsnfyo",
+                "miniDescription": "Grupo de extensão focado em Livre e Open Source",
+                "detailedDescription":"O GELOS é um grupo de extensão do ICMC-USP, ativo desde 2021 e vinculado ao Centro de Competência em Open Source (CCOS). Sua missão é conectar a USP à comunidade FLOSS, promovendo estudos, debates e projetos colaborativos em software e hardware livres, além de abordar aspectos sociais e políticos do tema.",
+                "otherActivities": "O GELOS realiza projetos colaborativos, promove discussões sobre FLOSS e mantém canais abertos de comunicação como Telegram e Matrix. Interessados podem participar livremente das reuniões e atividades, com possibilidade de se tornarem membros plenos após um semestre de engajamento ativo.",
+                "site": "https://dataicmc.vercel.app/br",
+                
+                        "instagram": "https://www.instagram.com/gelos.icmc/", 
+                        "youtube": "",
+                        "telegram":""
+                    
+            },
+            {
+              "id":6,
+                "name": "GRACE",
+                "logo": "https://meninas.sbc.org.br/wp-content/uploads/2018/05/37388354_2351999355027071_2087547362204450816_n.jpg",
+                "miniDescription": "Grupo de extensão focado em promover a inclusão de mulheres nas ciências exatas e tecnologia",
+                "detailedDescription":"O GRACE (Grupo de Alunas de Ciências Exatas) é um grupo de extensão do ICMC-USP que promove a participação feminina nas ciências exatas. Com atividades voltadas para meninas e jovens mulheres, o grupo busca despertar o interesse por tecnologia e computação, inserindo-se no contexto do Programa Nacional Meninas Digitais da SBC. O GRACE realiza oficinas e eventos educacionais, incentivando estudantes do ensino fundamental, médio e superior a explorarem essas áreas.",
+                "otherActivities": "O GRACE organiza eventos como o TechSchool, onde meninas desenvolvem habilidades em design thinking, criação de aplicativos móveis e inteligência artificial. Além disso, promove palestras e oficinas para destacar os projetos do ICMC e da USP, fomentando a visibilidade feminina nas ciências exatas.",
+                "site": "https://grace.icmc.usp.br/",
+               
+                        "instagram": "https://www.instagram.com/grace.icmc.usp/", 
+                        "youtube": "",
+                        "telegram":""
+                 
+            },
+            {
+              "id":7,
+                "name": "GEMA",
+                "logo": "https://scontent.fqps5-1.fna.fbcdn.net/v/t39.30808-6/308618904_420779336868865_5760985335105042595_n.png?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ae88xWrDJrEQ7kNvgG6TUk_&_nc_oc=AdjTHDcvNsjqcVKukk9qbYvEMmK_MfWgD-W81uyPhIsAyIucoXmcnINP8lwBXU6rM-w&_nc_zt=23&_nc_ht=scontent.fqps5-1.fna&_nc_gid=AcMOcGvY_K2Ip9fXjeRaQR5&oh=00_AYA-_SWUjqVAn5_hml4ybCI8AK-fOCZpuimdK_rULnvLig&oe=676CF5F7",
+                "miniDescription": "Grupo de extensão focado em programação competitiva e preparação para maratonas de programação.",
+                "detailedDescription":"O GEMA (Grupo de Estudos para a Maratona de Programação) é um grupo de extensão do ICMC-USP que prepara estudantes para competições de programação competitiva, como a Maratona de Programação da SBC e o ICPC. Com encontros semanais, o GEMA promove o estudo de algoritmos, estruturas de dados e resolução de problemas em equipe, treinando para desafios de alto nível reconhecidos nacional e internacionalmente.",
+                "otherActivities": "O GEMA realiza reuniões semanais para discutir problemas avançados e tópicos relacionados a maratonas de programação, além de oferecer aulas introdutórias no início do ano para iniciantes. O grupo também organiza seletivas internas e treina equipes para competições como a OBI e o ICPC, destacando-se na formação de programadores competitivos e promovendo a interação com a comunidade de programação.",
+                "site": "http://gema.icmc.usp.br/About",
+                
+                        "instagram": "https://www.instagram.com/gema.icmc/",
+                        "youtube": "https://www.youtube.com/channel/UCv051Zppxw4k11h3qlHxpGg",
+                        "telegram":""
+                    
+            },
+            {
+              "id":8,
+                "name": "LESC",
+                "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHUzZl8Xwt5MA/company-logo_200_200/company-logo_200_200/0/1630575828603/ligadeempreendedorismosc_logo?e=2147483647&v=beta&t=11ZlGCE_Sen7Sx4eLU6tir2OxP-UoSpUAbte37xjFzs",
+                "miniDescription": "Grupo de extensão focado em promover o empreendedorismo entre universitários de São Carlos e região",
+                "detailedDescription":"A LESC (Liga de Empreendedorismo de São Carlos) é um grupo dirigido por universitários que buscam transformar o alto potencial tecnológico da região em um grande centro de iniciativas de impacto econômico e social. Sua missão é incentivar atitudes empreendedoras, conectando estudantes com oportunidades de criação e inovação de negócios.",
+                "otherActivities": "A LESC promove eventos, workshops e encontros que incentivam a criação de startups, o desenvolvimento de ideias inovadoras e a troca de experiências entre universitários. Além disso, fomenta a interação com profissionais do mercado e investidores, ajudando a viabilizar novos negócios e fortalecer o ecossistema empreendedor na região.",
+                "site": "",
+                
+                        "instagram": "https://www.instagram.com/lesc_sanca/",
+                        "youtube": "",
+                        "telegram":""
+                   
+            },
+            {
+              "id":9,
+                "name": "NEMO",
+                "logo": "https://ugc.production.linktr.ee/2dsUgk6LSKuW2A15T5XC_ubpzlrJfSBWHaZPi?io=true&size=avatar-v3_0",
+                "miniDescription": "O grupo tem como objetivo motivar alunos da graduação a explorar e resolver problemas matemáticos considerados fundamentais na área. Além disso, prepara estudantes de diversos cursos da USP São Carlos para competições como OBMU, CIIM e IMC, promovendo o estudo aprofundado de matemática e a aplicação prática do conhecimento",
+                "detailedDescription":"O grupo tem como objetivo motivar alunos da graduação a explorar e resolver problemas matemáticos considerados fundamentais na área. Além disso, prepara estudantes de diversos cursos da USP São Carlos para competições como OBMU, CIIM e IMC, promovendo o estudo aprofundado de matemática e a aplicação prática do conhecimento.",
+                "otherActivities": "O grupo organiza treinamentos, sessões de estudo e encontros para resolver problemas desafiadores em matemática. Também promove a participação de estudantes em competições nacionais e internacionais, incentivando o desenvolvimento de habilidades analíticas e colaborativas.",
+                "site": "",
+                
+                        "instagram": "https://www.instagram.com/nemo_usp/",
+                        "youtube": "",
+                        "telegram":""
+                  
+            },
+            {
+              "id":10,
+                "name": "Projeto Aprender",
+                "logo": "https://aprender.rotarybandeirantes.org/img/logo_aprender.png",
+                "miniDescription": "Grupo de extensão focado em oferecer reforço educacional gratuito para alunos de escolas públicas.",
+                "detailedDescription":"O Projeto Aprender é uma iniciativa educacional gratuita voltada para alunos de escolas públicas, com o objetivo de prepará-los para os principais vestibulares do país. Realizado por professores voluntários da USP e UFSCar em parceria com o Rotaract São Carlos Bandeirantes, o projeto oferece aulas, monitorias e atividades ao longo do ano, sempre focando nas necessidades dos estudantes. Ele também conta com apoio institucional da USP São Carlos e segue um cronograma letivo estruturado para maximizar o aprendizado.",
+                "otherActivities": "O Projeto Aprender organiza simulados, monitorias, mentorias e aulas interativas para reforçar os conteúdos cobrados em vestibulares. Além disso, promove integrações entre alunos e voluntários, garantindo um ambiente de aprendizado colaborativo. O processo seletivo para alunos e voluntários acontece anualmente, e todas as informações são divulgadas pelas redes sociais do projeto.",
+                "site": "https://aprender.rotarybandeirantes.org/",
+                  "instagram": "https://www.instagram.com/aprender_sanca/",
+                        "youtube": "https://www.youtube.com/channel/UCadnQZEbxYLlZrLQdotH3Yw",
+                        "telegram":""
+                  
+            },
+            {
+              "id":11,
+                "name": "PET Computação USP",
+                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dv4eANRh2vGJP8dGOQ5yRwa8HExrqGGOEw&s",
+                "miniDescription": "Grupo de extensão focado em ensino, pesquisa e extensão para complementar a formação acadêmica em computação",
+                "detailedDescription":"O PET (Programa de Educação Tutorial) Computação do ICMC-USP é uma iniciativa voltada para alunos do Bacharelado em Ciências de Computação, promovida pelo Ministério da Educação (MEC). O programa combina ensino, pesquisa e extensão para oferecer uma formação acadêmica diferenciada. Participantes realizam atividades que expandem os conhecimentos adquiridos em sala de aula e promovem o desenvolvimento pessoal e profissional.",
+                "otherActivities": "O PET Computação organiza projetos como o Codifique, um curso gratuito de programação básica para estudantes do ensino médio. Além disso, desenvolve atividades de pesquisa, workshops e ações comunitárias que estimulam o aprendizado e o envolvimento dos estudantes com a sociedade e com temas relevantes da área de computação.",
+                "site": "https://pet.icmc.usp.br/",
+                   "instagram": "https://www.instagram.com/petcomputacaousp/",
+                        "youtube": "https://www.youtube.com/c/PETComputa%C3%A7%C3%A3oUSP",
+                        "telegram":""
+                   
+            },
+            {
+              "id":12,
+                "name": "FoG (Fellowship of The Game)",
+                "logo": "https://www.fog.icmc.usp.br/static/img/brasao.93a9aab.png",
+                "miniDescription": "Grupo de extensão focado em desenvolvimento de jogos e disseminação de conhecimento através de cursos e eventos",
+                "detailedDescription":"O Fellowship of The Game (FoG) é um grupo de extensão vinculado ao ICMC-USP dedicado ao desenvolvimento de jogos e à difusão de conhecimentos relacionados à área. Seus projetos envolvem prototipação de jogos, unindo programação, arte e música para criar experiências únicas. O grupo também promove minicursos gratuitos e oficializados pela USP, acessíveis a toda a comunidade, além de eventos para incentivar a interação e o aprendizado sobre game development.",
+                "otherActivities": "O FoG realiza eventos como Playtests, para que a comunidade experimente seus jogos; Game Jams, desafiando participantes a criar jogos em maratonas criativas; e a USP Game Link, que combina uma Mostra de Jogos do ICMC com palestras e conteúdos voltados ao desenvolvimento de games. O grupo também publica seus jogos gratuitamente para a comunidade",
+                "site": "https://www.fog.icmc.usp.br/",
+                
+                        "instagram": "https://www.instagram.com/fog_icmc/",
+                        "youtube": "https://www.youtube.com/FellowshipoftheGame",
+                   "telegram":""
+            },
+            {
+              "id":13,
+                "name": "USPCodeLab",
+                "logo": "data:image/png;base64,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",
+                "miniDescription": "Grupo de extensão focado em inovação tecnológica e formação prática em desenvolvimento de software.",
+                "detailedDescription":"O USPCodeLab (UCL) é um grupo de extensão do ICMC-USP que busca estimular a inovação tecnológica e complementar a formação de estudantes para torná-los engenheiros de software capacitados. Por meio de programas educacionais, o UCL ensina ferramentas e técnicas de desenvolvimento de sistemas reais, promovendo aprendizado prático e colaborativo.",
+                "otherActivities": "O USPCodeLab organiza o programa dev.journey(), que inclui iniciativas como o dev.learn() (cursos introdutórios e avançados de tecnologia), dev.boost() (projetos em grupo com clientes externos ou internos), dev.hack() (hackathons para criar soluções inovadoras) e dev.camp() (projetos de férias simulando uma empresa com arquitetura moderna). O grupo incentiva aprendizado prático e inovação através de desafios reais",
+                "site": "https://uclsanca.icmc.usp.br/",
+               
+                        "instagram": "https://www.instagram.com/uspcodelabsanca/",
+                        "youtube": "",
+                        "telegram":""
+               
+            },
+            {
+              "id":14,
+                "name": "Warthog Robotics",
+                "logo": "https://i0.wp.com/wr.sc.usp.br/wp-content/uploads/elementor/thumbs/wr_logo_vertical_1024-pk6qnxvt11vezjtt4rtc48stkba2itlfq5cpb1njls.png?w=1170&ssl=1",
+                "miniDescription": "Grupo de extensão focado em pesquisa e desenvolvimento de tecnologias robóticas para competições e aplicações práticas.",
+                "detailedDescription":"O Warthog Robotics é um grupo de pesquisa e extensão da USP São Carlos, vinculado à Escola de Engenharia de São Carlos e ao ICMC. Com foco em robótica de competição, o grupo desenvolve tecnologias avançadas aplicadas em áreas como futebol de robôs, combate, serviços e corrida. Além de promover o aprimoramento técnico-científico, o grupo oferece um ambiente colaborativo que capacita seus membros a atuarem com excelência em diversas áreas do conhecimento.",
+                "otherActivities": "O Warthog Robotics participa de competições nacionais e internacionais, realiza pesquisas em robótica e promove ações de extensão para disseminar o conhecimento. O grupo também organiza atividades que estimulam o aprendizado técnico e habilidades de trabalho em equipe, contribuindo para a formação completa de seus membros",
+                "site": "https://wr.sc.usp.br/",
+                
+                        "instagram": "https://www.instagram.com/warthogrobotics/",
+                        "youtube": "https://www.youtube.com/c/WarthogRoboticsTV",
+                        "telegram":""
+
+            },
+            {
+              "id":15,
+                "name": "Women in Tech",
+                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmagbhSBmswuJcuoX5XkCVBAsB0WEHkPd_wg&s",
+                "miniDescription": "Grupo de extensão focado em discutir e promover a representatividade feminina em ciência e tecnologia.",
+                "detailedDescription":"O Women in Tech (WiT) é um grupo de extensão que visa fomentar a representatividade feminina nas áreas de ciência e tecnologia. Por meio de eventos, debates e integração, o WiT promove um ambiente de apoio e empoderamento, conectando mulheres e incentivando sua entrada e permanência nessas áreas. O grupo também busca conscientizar a comunidade sobre os desafios e oportunidades para mulheres em tecnologia.",
+                "otherActivities": "O WiT organiza eventos, debates e workshops com palestrantes e empresas, além de criar parcerias com outros grupos de extensão. Também atua em marketing e divulgação de suas atividades, desenvolvimento de um site integrado por suas integrantes, e na captação de recursos e gerenciamento financeiro para apoiar suas iniciativas. O grupo promove um ambiente colaborativo e educativo para mulheres interessadas em ciência e tecnologia.",
+                "site": "https://wit.icmc.usp.br/",
+                
+                        "instagram": "https://www.instagram.com/women.in.tech/",
+                        "youtube": "",
+                        "telegram":""
+
+                
+            }        
+          ],
+          "website": "https://www.icmc.usp.br",
+          "foundation_year": 1971,
+          "history": "O ICMC originou-se como Departamento de Matemática da Escola de Engenharia de São Carlos (EESC), em 1953, fundado por renomados matemáticos italianos e outros competentes professores brasileiros.",
+          "mission": "A missão do ICMC é produzir e disseminar o conhecimento nas áreas de Matemática, Computação e Estatística, formar recursos humanos nos níveis de graduação e de pós-graduação e promover ações culturais, de difusão do conhecimento e de inserção social."
+        },
+      {
+          "id": 2,
+          "logo": "https://eesc.usp.br/imgs/institucional/identidade_visual/identidade_visual_novo_logo.pngvide",
+          "video": "https://www.youtube.com/watch?v=z8HmtrQ9cBQ",
+          "image1": "https://imagens.usp.br/wp-content/uploads/2010/02/saocarlos003.jpg",
+          "image2": "https://eesc.usp.br/imgs/institucional/identidade_visual/identidade_visual_e1.jpg",
+          "acronym": "EESC",
+          "name": "Escola de Engenharia de São Carlos",
+          "location": "São Carlos",
+          "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.0748724395594!2d-47.89920712564896!3d-22.008441979897473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8772c61b4ad21%3A0xbdd43248d1f6dbae!2sEESC%20-%20Escola%20de%20Engenharia%20de%20S%C3%A3o%20Carlos!5e0!3m2!1spt-BR!2sbr!4v1737664399625!5m2!1spt-BR!2sbr",
+          "courses": [
+              "Engenharia Aeronáutica",
+              "Engenharia Ambiental",
+              "Engenharia Civil",
+              "Engenharia de Computação",
+              "Engenharia de Materiais e Manufatura",
+              "Engenharia de Produção",
+              "Engenharia Elétrica - Eletrônica",
+              "Engenharia Elétrica - Sistemas de Energia e Automação",
+              "Engenharia Mecânica",
+              "Engenharia Mecatrônica"
+          ],
+          "infra": [
+              "Biblioteca",
+              "Laboratório de Ensino Informatizado",
+              "Laboratórios de Estradas",
+              "Laboratório de Geossintéticos",
+              "Parque de Equipamentos de Informática"
+          ],
+          "groups": [
+            {
+              "id":1,
+                "name": "ADA",
+                "logo": "https://yt3.googleusercontent.com/tYHpqkfoYcB_Gv_NIbvMdirWVuG7q5SWqc6aFJytfs3fUnzdJ6_OL1_KewC6dkblKEnZzSZO=s160-c-k-c0x00ffffff-no-rj",
+                "miniDescription": "Grupo extracurricular focado em projetos reais de engenharia de computação.",
+                "detailedDescription": "A ADA é um grupo formado por alunos da USP São Carlos que utiliza a integração de hardware e software para resolver problemas reais. Inspirado por Ada Lovelace, o grupo busca promover inovação e impacto tecnológico através da engenharia de computação.",
+                "otherActivities": "A ADA registra e compartilha conhecimentos, promove treinamentos e colabora com projetos de impacto social e acadêmico.",
+                "site": "http://adaec.icmc.usp.br/",
+                
+                    "instagram": "https://www.instagram.com/ada_usp/",
+                    "youtube": "https://www.youtube.com/channel/UC0kynosNQ14cvoTlBixcBYA",
+                    "telegram":""
+
+              },
+              {
+                "id":2,
+                "name": "EESC USP Baja SAE",
+                "logo": "https://baja.eesc.usp.br/logo.png",
+                "miniDescription": "Grupo extracurricular focado em desenvolvimento de veículos off-road para competições.",
+                "detailedDescription": "A EESC USP Baja SAE projeta e fabrica veículos off-road. O grupo é formado por alunos de engenharia que aplicam conhecimentos acadêmicos em projetos reais, destacando-se em competições nacionais e internacionais.",
+                "otherActivities": "Promove inovações mecânicas e eletrônicas, além de gestão e trabalho em equipe. Realiza projetos reconhecidos pela indústria automobilística.",
+                "site": "https://baja.eesc.usp.br/",
+                
+                    "instagram": "https://www.instagram.com/baja.eesc/",
+                    "youtube": "https://www.youtube.com/channel/UCBajaEESC",
+                    "telegram":""
+
+               
+              },
+              {
+                "id":3,
+                "name": "EESC USP AeroDesign",
+                "logo": "https://scontent.faqa1-1.fna.fbcdn.net/v/t39.30808-6/301039656_503706805088447_4958659522987186813_n.png",
+                "miniDescription": "Grupo de extensão focado em desenvolvimento e competição de aeronaves.",
+                "detailedDescription": "Com mais de 22 anos de história, a EESC USP AeroDesign projeta aeronaves de alta qualidade e participa de competições como a SAE Brasil AeroDesign, acumulando prêmios nacionais e internacionais.",
+                "otherActivities": "O grupo promove projetos aeroespaciais de alta complexidade, capacitando seus membros e contribuindo para o avanço da engenharia aeronáutica.",
+                "site": "https://aerodesign.eesc.usp.br/",
+                
+                "instagram": "https://www.instagram.com/eesc_usp_aerodesign/",
+                "youtube": "https://www.youtube.com/user/EESCUSPAeroDesign",
+                "telegram":""
+
+               
+              },
+              {
+                "id":4,
+                "name": "EESC USP Formula SAE",
+                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv1TBSlhAzhNtiu_uGRHiqT5mUcjCeczRhfg&s",
+                "miniDescription": "Grupo de extensão focado em desenvolvimento de protótipos automotivos para competições.",
+                "detailedDescription": "Fundada em 2003, a EESC USP Formula SAE projeta e constrói protótipos automotivos para competições nacionais e internacionais. O grupo busca excelência em engenharia e inovação.",
+                "otherActivities": "Participa de competições de Formula SAE, promovendo o desenvolvimento pessoal e técnico de seus membros através de projetos completos de engenharia.",
+                "site": "https://www.youtube.com/@EESCFormulaSAE",
+               
+                    "instagram": "https://www.instagram.com/formulaeesc/",
+                    "youtube": "https://www.youtube.com/@EESCFormulaSAE",
+                    "telegram":""
+
+                
+            },
+            {
+              "id":5,
+                "name": "EESC USP Tupã",
+                "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQFH49RuQNaTOg/company-logo_200_200/company-logo_200_200/0/1630485718487/usptupa_logo?e=2147483647&v=beta&t=TGq-j49p6GGXgdfObDidCSU3eTmpoEmrEP_xGrGQ9Wg",
+                "miniDescription": "Grupo de extensão focado em desenvolver carros elétricos de alta performance.",
+                "detailedDescription": "A EESC USP Tupã é uma equipe de fórmula estudantil dedicada ao desenvolvimento de carros elétricos de alto desempenho para competições da Fórmula SAE. Fundada em 2013, a equipe promove inovação e capacitação técnica de seus membros.",
+                "otherActivities": "Participa de competições de Fórmula SAE e promove o desenvolvimento de habilidades como trabalho em equipe, liderança e gestão.",
+                "site": "",
+                
+                    "instagram": "https://www.instagram.com/usptupa/",
+                    "youtube": "https://www.youtube.com/c/EESCUSPTup%C3%A3",
+                    "telegram":""
+
+                
+              },
+              {
+                "id":6,
+                "name": "Econ",
+                "logo": "https://kbpe3He2Q0ChNGla1Xzy_NktSBS8Ek48rfH07 (400×400)",
+                "miniDescription": "Grupo de extensão focado em tecnologia do concreto e inovação estrutural.",
+                "detailedDescription": "A Econ é uma equipe acadêmica especializada em tecnologia do concreto, formada por alunos da Engenharia Civil da USP São Carlos. O grupo promove o desenvolvimento de projetos inovadores e a participação em competições nacionais de engenharia.",
+                "otherActivities": "Participa de competições como Concreto Colorido de Alta Resistência e organiza projetos de infraestrutura com impacto social e ambiental.",
+                "site": "",
+                
+                    "instagram": "https://www.instagram.com/econ.usp/",
+                    "youtube":"",
+                    "telegram":""
+
+                   
+                 
+              },
+              {
+                "id":7,
+                "name": "GEISA",
+                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTazBkdb73-l7Igz7RQIkomKex7zWhbQTgeng&s",
+                "miniDescription": "Grupo de extensão focado em intervenções socioambientais e sustentabilidade.",
+                "detailedDescription": "O GEISA promove ações socioambientais com foco na sustentabilidade e justiça social. Inspirado por Paulo Freire, o grupo realiza projetos como compostagem, agroecologia e educação ambiental, além de fomentar debates sobre tecnologias sociais.",
+                "otherActivities": "Realiza intervenções socioambientais em comunidades, promove grupos de estudo e organiza projetos em parceria com escolas e assentamentos.",
+                "site": "https://sites.usp.br/geisa/",
+                
+                    "instagram": "https://www.instagram.com/geisa.usp/",
+                    "youtube": "",
+                    "telegram":""
+
+                 
+              },
+              {
+                "id":8,
+                "name": "SEA - Semana da Engenharia Ambiental",
+                "logo": "https://instagram.faqa1-1.fna.fbcdn.net/v/t51.2885-19/424430739_1328394341140391_7094922184191319782_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.faqa1-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=75MwKMJNJ74Q7kNvgFIVFs0&_nc_gid=e5806803218a4098a313827118fee54c&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AYBZqeTdM536ZeCQhysdStDOfelVsQWB7Q9jVdG8aEmQAQ&oe=6756C4A0&_nc_sid=7a9f4b",
+                "miniDescription": "Grupo de extensão focado em eventos sobre engenharia ambiental e sustentabilidade.",
+                "detailedDescription": "A SEA organiza anualmente um evento com palestras, mesas-redondas, minicursos e visitas técnicas, promovendo discussões sobre gestão ambiental, planejamento urbanístico e inovações na área ambiental.",
+                "otherActivities": "Realiza campanhas de arrecadação, eventos culturais e atividades voltadas para práticas sustentáveis e responsabilidade social.",
+                "site": "",
+                
+                    "instagram": "https://www.instagram.com/sea.eesc/",
+                    "youtube": "",
+                    "telegram":""
+
+                 
+              },
+              {
+                "id":9,
+                "name": "Zenith EESC USP",
+                "logo": "https://instagram.faqa1-1.fna.fbcdn.net/v/t51.2885-19/30829661_1956925987674598_6049847566860812288_n.jpg?stp=dst-jpg_s150x150",
+                "miniDescription": "Grupo de extensão focado em engenharia aeroespacial e construção de satélites.",
+                "detailedDescription": "O Zenith EESC USP desenvolve projetos aeroespaciais, incluindo sondas científicas e educacionais, além de nanossatélites. A equipe combina hardware, software e estruturas para fomentar a inovação e a capacitação técnica.",
+                "otherActivities": "Participa de competições como CubeDesign, promove projetos educacionais e desenvolve experimentos aeroespaciais com alcance nacional.",
+                "site": "http://zenith.eesc.usp.br/",
+                
+                    "instagram": "https://www.instagram.com/zenith_eesc/",
+                    "youtube": "https://www.youtube.com/channel/UChrHC1G3VuzgKDTOzVaCgzg",
+                    "telegram":""
+
+                 
+              },
+              {
+                "id":10,
+                "name": "Grupo organizador do SEnC - Semana da Engenharia de Computação",
+                "logo": "https://scontent.fqps5-1.fna.fbcdn.net/v/t39.30808-1/326726310_547946494021798_753220138221760302_n.png?stp=dst-png_s200x200&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=NJ40lHGfTMAQ7kNvgHjXqlu&_nc_oc=AdgtWFxl3Gn4LbeShpZyi5bw5-TzpGoCgLLd7tyZ1j6qrnUXUpT3wD7mUpmVQwKnTDo&_nc_zt=24&_nc_ht=scontent.fqps5-1.fna&_nc_gid=AieeBy2dCX1HUNYmJaDz2bf&oh=00_AYCOTuI0X0dYYWQCRGQoclG6sAlogmTfb5MHZhiniSRCSg&oe=676CF890",
+                "miniDescription": "Grupo de extensão focado em organizar a Semana da Engenharia de Computação.",
+                "detailedDescription": "A Semana da Engenharia de Computação (SEnC) é um evento anual organizado pelos alunos de engenharia de computação da USP São Carlos. Criada em 2016, tem como objetivo fortalecer a identidade profissional do engenheiro de computação, tanto no mercado quanto no curso.",
+                "otherActivities": "Promove palestras, workshops e outras atividades que destacam a importância da engenharia de computação, incentivando a troca de conhecimento entre alunos e profissionais da área.",
+                "site": "https://senc.icmc.usp.br/#:~:text=SOBRE,profissional%20do%20engenheiro%20de%20computa%C3%A7%C3%A3o.",
+                
+                    "instagram": "https://www.instagram.com/senc.usp/",
+                    "youtube": "",
+                    "telegram":""
+
+                
+              },
+              {
+                "id":11,
+                "name": "WiE (Women in Engineering)",
+                "logo": "https://scontent.faqa1-1.fna.fbcdn.net/v/t39.30808-1/233075197_219529360180602_6498606940153635594_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=101&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=CyAoKQE87F4Q7kNvgFdKrI2&_nc_zt=24&_nc_ht=scontent.faqa1-1.fna&_nc_gid=AjXogOOwJsCQu_TBYv9hEQX&oh=00_AYCvZ6njdcf1Q5Zr1AVAU-Oc7HlSQbr78IXgDVJzdxCgkg&oe=6756C30F",
+                "miniDescription": "Grupo de extensão focado em incentivar a permanência de mulheres nos cursos de engenharia e ciências exatas.",
+                "detailedDescription": "O WiE (Women in Engineering) é um grupo atuante na USP São Carlos com o objetivo de incentivar a permanência das mulheres nos cursos universitários de engenharia e ciências exatas. O grupo busca tornar a universidade um ambiente mais acolhedor para a comunidade feminina, promovendo integração, troca de experiências e identificação mútua entre as alunas. As ações e projetos do WiE visam criar a consciência de que as mulheres devem protagonizar o panorama científico, tecnológico e acadêmico.",
+                "otherActivities": "Organiza eventos como palestras, rodas de conversa, workshops e visitas a escolas públicas da região para fomentar a participação feminina nas áreas de ciências exatas e engenharia.",
+                "site": "",
+                
+                    "instagram": "https://www.instagram.com/wieuspsaocarlos/",
+                    "youtube": "",
+                    "telegram":""
+
+                 
+              },
+              {
+                "id":12,
+                "name": "TOPUS - Projetos Aeroespaciais",
+                "logo": "https://lh4.googleusercontent.com/bBbTbTirhCOUwGSbO58bK0t5MnorPINkD48l10v_yXCv3Rx1BK1cYYqUYHonONHl16CPLS5XMO3auOA0vbFNgb3sOCtCdzy2WRoB8jtd9iXOCt7CeQHeJnUCUcvz9TB7vQ=w1280",
+                "miniDescription": "Grupo de extensão focado em pesquisa e desenvolvimento de projetos aeroespaciais.",
+                "detailedDescription": "O TOPUS - Projetos Aeroespaciais foi fundado em 2005 após a fusão de equipes de pesquisa de foguetes da Escola de Engenharia de São Carlos (EESC) e do Instituto de Física de São Carlos (IFSC), ambos vinculados à USP. Com mais de 17 anos de história, o grupo desenvolve foguetes de pequeno e médio porte e promove projetos aeroespaciais complexos, acumulando conquistas como oito títulos na Latin American Space Challenge.",
+                "otherActivities": "Participa de competições, realiza pesquisas em engenharia aeroespacial e publica trabalhos em congressos nacionais. Desenvolve projetos avançados, abrangendo apogeus maiores e tecnologias mais sofisticadas.",
+                "site": "http://www.topus.eesc.usp.br/",
+                
+                    "instagram": "https://www.instagram.com/grupotopus/",
+                    "youtube": "",
+                    "telegram":""
+
+                 
+              },
+              {
+                "id":13,
+                "name": "Ramo Estudantil IEEE - USP São Carlos",
+                "logo": "https://scontent.faqa1-1.fna.fbcdn.net/v/t39.30808-6/327298266_687058819782964_350862808031852114_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=G87ApYJvfVUQ7kNvgG75Cx6&_nc_zt=23&_nc_ht=scontent.faqa1-1.fna&_nc_gid=AylQun7YGc1aZK1tgPSwf0r&oh=00_AYDw1DPCGZ-WitU5V11M0XErVNkeb52dfhVeklq1ey-bWw&oe=6756CE99",
+                "miniDescription": "Grupo de extensão focado na difusão do conhecimento prático e teórico das ciências e engenharias.",
+                "detailedDescription": "O Ramo Estudantil IEEE - USP São Carlos tem como objetivo principal a difusão do conhecimento prático e teórico nas áreas de ciências exatas e engenharias, com destaque para engenharia elétrica. O grupo realiza e promove projetos, workshops, palestras e visitas técnicas para os alunos do campus e habitantes da cidade de São Carlos.",
+                "otherActivities": "Organiza eventos para disseminar conhecimento técnico e científico, promovendo a interação entre estudantes e profissionais das áreas de ciências exatas e engenharias.",
+                "site": "",
+                
+                    "instagram": "https://www.instagram.com/ieeeuspsc/",
+                    "youtube": "https://www.youtube.com/c/IEEEStudentBranchSãoCarlos",
+                    "telegram":""
+
+                 
+              },
+              {
+                "id":14,
+                "name": "Núcleo de Empreendedorismo da USP São Carlos (NEU-SC)",
+                "logo": "https://scontent.faqa1-1.fna.fbcdn.net/v/t39.30808-1/304926464_443601391123004_1173162252668678545_n.png?stp=dst-png_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=fkx3rbxWtOsQ7kNvgGjS9SQ&_nc_zt=24&_nc_ht=scontent.faqa1-1.fna&_nc_gid=AkiXmhdfIKlQdf6FbJV8sXg&oh=00_AYBiJ6zYKddWTFr4RgzTdfJ_udKpqxquitH7Fe9o8v2Drg&oe=6756E3BF",
+                "miniDescription": "Grupo de extensão focado em difundir a cultura empreendedora no campus da USP São Carlos.",
+                "detailedDescription": "O NEU-SC é um grupo extracurricular dedicado a promover a cultura empreendedora e a inovação no campus da USP São Carlos. Desde 2018, realiza capacitações, suporte e conexões com o ecossistema ao redor, mostrando que o empreendedorismo é acessível a todos, não apenas para aqueles com uma 'ideia de ouro'.",
+                "otherActivities": "Organiza palestras, visitas, mesas-redondas e eventos como hackathons e programas de incubação para fomentar a inovação e integrar a comunidade acadêmica ao ambiente empreendedor.",
+                "site": "",
+                
+                    "instagram": "",
+                    "youtube": "https://www.youtube.com/neusaocarlos",
+                    "telegram":""
+
+                 
+              },
+              {
+                "id":15,
+                "name": "Campanha USP do Agasalho",
+                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbK0vs5elmAFnWu1DzNJoAaJC_heDXL1DFQA&s",
+                "miniDescription": "Grupo extracurricular focado em arrecadar e destinar roupas para entidades sociais da cidade",
+                "detailedDescription":"As atividade do projeto consistem em recolher roupas por meio de doações e destiná-las, de forma adequada, para as entidades. Além disso, realizar visitas e intervenções nas entidades auxiliadas. O público que o projeto ajuda são as pessoas em situação de vulnerabilidade social que estejam precisando de doações de roupas, sendo atendida ou não por uma entidade assistencialista.",
+                "otherActivities": "Anualmente realizamos o nosso maior evento, o Saída às Ruas, em que os voluntários percorrem diversos bairros da cidade arrecadando doações de porta em porta.",
+                "site": "https://campanhauspdoagasalho.eesc.usp.br/#",
+                
+                        "instagram": "https://www.instagram.com/instagasalho/", 
+                        "youtube": "https://www.youtube.com/channel/UC6c8lx8ElTfp8heMCbjBCWw",
+                        "telegram":""
+
+                    
+            },
+            {
+              "id":16,
+                "name": "SEMEAR",
+                "logo": "cropped-s.png",
+                "miniDescription": "Grupo de extensão focado em projetos inovadores de engenharia e robótica.",
+                "detailedDescription": "O SEMEAR é um grupo extracurricular da EESC que aplica e expande o conhecimento da graduação por meio de projetos inovadores em engenharia e robótica. Com mais de 60 membros, o grupo desenvolve robôs autônomos e controlados, trabalha com tecnologias em mecatrônica, mecânica, eletrônica, programação e gestão, além de realizar parcerias com empresas e laboratórios de pesquisa.",
+                "otherActivities": "Promove cursos, workshops e eventos relacionados à engenharia e robótica, participa de competições e realiza projetos de impacto social. Também organiza programas de ensino e extensão para complementar a formação acadêmica de seus membros.",
+                "site": "",
+                
+                    "instagram": "https://www.instagram.com/semear.usp/?hl=pt",
+                    "youtube": "",
+                    "telegram":""
+
+                 
+            },
+            {
+              "id":17,
+                "name": "Sematron - Semana da Engenharia Mecatrônica EESC USP",
+                "logo": "https://scontent.faqa1-1.fna.fbcdn.net/v/t39.30808-1/304072469_497952945672210_8414318555876934122_n.jpg?stp=dst-jpg_s200x200&_nc_cat=102&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=tRP5F5t1qxYQ7kNvgFfwUWH&_nc_zt=24&_nc_ht=scontent.faqa1-1.fna&_nc_gid=A-LcMv39I5uTbww9BULbExy&oh=00_AYAeF3PSV7zRxHw_f5C8C14pjfpLa1DR58UwqZMEId0rzg&oe=6756D109",
+                "miniDescription": "Grupo de extensão focado em promover o intercâmbio de conhecimento em engenharia mecatrônica.",
+                "detailedDescription": "Há 15 anos, a Sematron reúne estudantes de engenharia para o intercâmbio de conhecimento através de eventos acadêmicos de excelência. No primeiro semestre, organiza a Semana da Engenharia Mecatrônica, maior evento da área na América Latina, com cerca de 500 participantes por edição. No segundo semestre, promove palestras, cases e mesas-redondas para capacitar seus membros e alunos do campus.",
+                "otherActivities": "Realiza eventos acadêmicos de impacto nacional, conectando pessoas ao mercado de trabalho e trazendo novos conceitos de tecnologia e engenharia mecatrônica.",
+                "site": "https://www.sematron.com.br/",
+                
+                    "instagram": "https://www.instagram.com/sematronusp/",
+                    "youtube": "https://www.youtube.com/user/sematronusp",
+                    "telegram":""
+
+                  
+            },
+            {
+              "id":18,
+                "name": "SEA (Grupo organizador da Semana de Engenharia Aeronáutica)",
+                "logo": "https://sea.eesc.usp.br/wp-content/uploads/2021/05/logo.png",
+                "miniDescription": "Grupo de extensão focado em promover a discussão e formação na área de engenharia aeronáutica.",
+                "detailedDescription": "A SEA organiza a Semana de Engenharia Aeronáutica, o maior fórum de discussão de engenharia aeronáutica do Brasil. Criado em 2004, o grupo realiza palestras, minicursos, visitas técnicas e mesas-redondas para expor problemas e desafios do setor aeroespacial, complementando a formação dos participantes e preparando-os para o mercado de trabalho.",
+                "otherActivities": "Além do evento anual, o grupo promove interações entre participantes e especialistas do setor, fortalecendo a troca de conhecimento e experiências na área aeroespacial.",
+                "site": "",
+               
+                    "instagram": "https://www.facebook.com/seaeronautica/?_rdc=1&_rdr",
+                    "youtube": "https://www.youtube.com/c/SEAUSP/videos",
+                    "telegram":""
+
+                 
+            },
+            {
+              "id":19,
+                "name": "Sameca - Secretaria Acadêmica da Mecânica",
+                "logo": "https://sameca.eesc.usp.br/wp-content/uploads/2024/07/logo-s-letra-300x233.png",
+                "miniDescription": "Grupo de extensão focado em complementar a formação de engenheiros mecânicos.",
+                "detailedDescription": "A Sameca (Secretaria Acadêmica da Mecânica) tem como missão complementar a formação dos engenheiros mecânicos. Sua principal atividade é organizar a Semana Acadêmica do curso de Engenharia Mecânica, oferecendo cursos profissionalizantes, palestras, mesas-redondas e visitas técnicas a fábricas de relevância nacional. Além disso, promove eventos ao longo do ano sobre temas atuais, discutindo o papel do engenheiro mecânico na sociedade.",
+                "otherActivities": "Organiza eventos pontuais e promove discussões sobre temas em alta na sociedade, incentivando a reflexão sobre a atuação do engenheiro mecânico.",
+                "site": "",
+               
+                    "instagram": "https://www.instagram.com/samecaeesc/",
+                    "youtube": "",
+                    "telegram":""
+
+                 
+              },
+              {
+                "id":20,
+                "name": "SEC - Semana da Engenharia Civil EESC USP",
+                "logo": "qv4Tq8OdTwKZefpVAQDv_nT1s754yGwVGI0qB",
+                "miniDescription": "Grupo de extensão focado em promover eventos relacionados à engenharia civil.",
+                "detailedDescription": "A SEC organiza a Semana da Engenharia Civil, que inclui palestras, mesas-redondas, estudos de caso, minicursos, workshops e viagens técnicas. Além do evento principal, realiza eventos paralelos ao longo do ano, promovendo a interação entre estudantes e profissionais da área.",
+                "otherActivities": "Promove atividades educacionais e de networking para alunos de engenharia civil, incentivando o desenvolvimento técnico e profissional.",
+                "site": "",
+               
+                    "instagram": "https://www.instagram.com/sec.eesc/",
+                    "youtube": "",
+                    "telegram":""
+
+                 
+              }
+        ],
+          "website": "https://www.eesc.usp.br",
+          "foundation_year": 1953,
+          "history": "A EESC foi implantada em São Carlos, no interior do Estado de São Paulo, na segunda metade do século XX, e alavancou o desenvolvimento tecnológico e educacional da cidade, reconhecida como A Capital da Tecnologia.",
+          "mission": "Promover o acesso e incentivar o uso da informação e a geração de conhecimento, contribuindo para a qualidade do ensino, pesquisa e extensão na EESC, com a utilização eficaz dos recursos públicos."
+      },
+      {
+          "id": 3,
+          "logo": "https://www.iqsc.usp.br/intranet/ftp/Logotipos/Logotipos%20IQSC/logo_azul_sem_fundo.png",
+          "video": "https://www.youtube.com/watch?v=ckp6vRF6TVc",
+          "image1": "https://www5.iqsc.usp.br/files/2023/07/11072023_Bolsa-IC-Lab-Prof-Julio.jpg",
+          "image2": "https://www5.iqsc.usp.br/files/2020/12/IMG_4312-scaled.jpg",
+          "acronym": "IQSC",
+          "name": "Instituto de Química de São Carlos",
+          "location": "São Carlos",
+          "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.1536702435264!2d-47.900875725649016!3d-22.00542217989971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b870cb9f0d4c55%3A0x861fa627ad5efa68!2sInstituto%20de%20Qu%C3%ADmica%20de%20S%C3%A3o%20Carlos%20da%20Universidade%20de%20S%C3%A3o%20Paulo%20(IQSC-USP)!5e0!3m2!1spt-BR!2sbr!4v1737664756146!5m2!1spt-BR!2sbr",
+          "courses": [
+              "Bacharelado em Química",
+              "Licenciatura em Ciências Exatas"
+          ],
+          "infra": [
+              "Biblioteca",
+              "Salas de Aula Teórica",
+              "Anfiteatros",
+              "Salas Multiuso",
+              "Sala de Reuniões",
+              "Laboratórios de Ensino"
+          ],
+          "groups":[
+            {
+              "id":1,
+                "name": "ACS USP Student Chapter",
+                "logo": "https://instagram.faqa1-1.fna.fbcdn.net/v/t51.2885-19/365424220_263269666486840_1714228208481665306_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.faqa1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=Xto0D6hd3YoQ7kNvgEKcKXd&_nc_gid=6a871e5d190d4040b2bc6c0a11bc6238&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AYD33uj7LZBiIe52ufePVeHCfHN05E10DBYyAYqLZ3TrpQ&oe=6756CEE3&_nc_sid=22de04",
+                "miniDescription": "Grupo de extensão focado em aproximar a ciência do público.",
+                "detailedDescription": "O ACS USP Student Chapter realiza eventos como minicursos, palestras e visitas técnicas, além de projetos educacionais inovadores. Suas iniciativas incluem olimpíadas científicas, demonstrações de experimentos e projetos como 'Molécula da Semana' e 'Minuto da Química', promovendo o interesse pela ciência desde cedo.",
+                "otherActivities": "Desenvolve conteúdo científico para mídias sociais e promove o ensino de química e ciência por meio de atividades práticas e educativas voltadas para escolas e o público geral.",
+                "site": "",
+                
+                    "instagram": "https://www.instagram.com/acschapterusp/",
+                    "youtube": ""
+                  
+              },
+              {
+                "id":2,
+                "name": "Comissão Organizadora Discente/SEMAQ",
+                "logo": "https://extensao.iqsc.usp.br/files/2022/09/Logo-COD-SEMAQ-Preto-1-Laura-Pereira-Clemente-300x298.png",
+                "miniDescription": "Grupo de extensão focado na organização da Semana da Química 'Prof. Edson Rodrigues'.",
+                "detailedDescription": "A Comissão Organizadora Discente/SEMAQ organiza a Semana da Química 'Prof. Edson Rodrigues', trazendo professores e profissionais de diversas universidades e empresas para apresentar conteúdos relevantes. Os eventos têm alcance amplo, sendo transmitidos ao vivo pelo YouTube e acessíveis ao público geral.",
+                "otherActivities": "Promove atividades educativas voltadas para a comunidade acadêmica do IQSC, com foco nos alunos de graduação, e busca ampliar o alcance de seus eventos por meio de transmissões online.",
+                "site": "",
+                
+                    "instagram": "https://www.instagram.com/semaq.iqsc/",
+                    "youtube": "",
+                    "telegram":""
+
+                  
+              },
+              {
+                "id":3,
+                "name": "EducAção",
+                "logo": "https://extensao.iqsc.usp.br/files/2022/09/Logo-Ana-Claudia-Kasseboehmer-300x300.jpeg",
+                "miniDescription": "Grupo de extensão focado em promover melhorias no ensino e aprendizagem da educação básica.",
+                "detailedDescription": "O EducAção é um grupo de extensão do Instituto de Química de São Carlos (IQSC) formado por professores universitários, professores da educação básica e graduandos. O grupo discute e implementa mudanças para a melhoria da qualidade do ensino e da aprendizagem na educação básica, com especial atenção às escolas públicas.",
+                "otherActivities": "Realiza visitas escolares, promove atividades de desenvolvimento e oferece programas de pré-iniciação científica para estimular o engajamento e o aprendizado em educação básica.",
+                "site": "https://educacao.iqsc.usp.br/atividades/",
+                
+                    "instagram": "https://www.instagram.com/educacao.usp/",
+                    "youtube": "",
+                    "telegram":""
+
+               
+              },
+              {
+                "id":4,
+                "name": "PET Química IQSC",
+                "logo": "https://instagram.faqa1-1.fna.fbcdn.net/v/t51.2885-19/278803532_5610941698919273_1051250284175082360_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.faqa1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=EmSY4-8mOp4Q7kNvgEFjH8i&_nc_gid=d46cd69d9aa34581a95c7716018e0372&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AYDjtQCH54xOntQ_eEDnks2HFiRwxXhqZq_b1fEgsaMJEw&oe=6756E7AE&_nc_sid=7a9f4b",
+                "miniDescription": "Grupo de extensão focado na formação tutorial em ensino, pesquisa e extensão.",
+                "detailedDescription": "O PET Química IQSC faz parte do programa de educação tutorial que integra ensino, pesquisa e extensão. Suas atividades têm como objetivo aprimorar a formação acadêmica, técnica e científica dos alunos de graduação, introduzir novas práticas pedagógicas e promover a equidade e diversidade no ensino superior. O grupo também busca estimular o espírito crítico e a cidadania entre seus membros.",
+                "otherActivities": "Organiza eventos de nível estadual, regional e nacional, voltados ao aprimoramento dos membros PET e à extensão para alunos do ensino médio e o público geral.",
+                "site": "",
+               
+                    "instagram": "https://www.instagram.com/pet_quimicaiqsc/",
+                    "youtube": "https://www.youtube.com/channel/UC-4HOLy-7mdk54wPXKxoYiA?sub_confirmation=1",
+                    "telegram":""
+
+                  
+              }
+               
+              
+          ],
+          "website": "https://www5.iqsc.usp.br/",
+          "foundation_year": 1994,
+          "history": "O Instituto de Química de São Carlos (IQSC) surgiu em 1994, a partir do desmembramento do Instituto de Física e Química de São Carlos (IFQSC), que havia sido fundado em 1968 durante a reforma universitária da USP. Originalmente vinculado à Escola de Engenharia de São Carlos, o IQSC consolidou-se com atividades de pesquisa, graduação e pós-graduação de excelência, especialmente na área de Físico-Química.",
+          "mission": "A missão do Instituto de Química de São Carlos (IQSC) da USP é promover a excelência no ensino, pesquisa e extensão em Química, formando profissionais altamente qualificados para contribuir com a sociedade. O instituto valoriza a inovação, o rigor científico, a sustentabilidade e o compromisso em enfrentar desafios globais, como energia limpa, saúde e preservação ambiental​"
+      },
+      {
+          "id": 4,
+          "logo": "https://www.iau.usp.br/wp-content/uploads/2024/01/logo_principal_assinatura02_azul_curvas.png",
+          "video": "https://www.youtube.com/watch?v=aeVSnmJpVCM",
+          "image1": "https://uspprofissoes.usp.br/wp-content/uploads/2021/08/1100x734.png",
+          "image2": "https://www.iau.usp.br/acervoprojetomemoria/wp-content/uploads/tainacan-items/9551/16552/MG_4620-scaled.jpg",
+          "acronym": "IAU",
+          "name": "Instituto de Arquitetura e Urbanismo",
+          "location": "São Carlos",
+          "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.204784947186!2d-47.900953225649005!3d-22.003463079901064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8773b30001d89%3A0x923131a838d0e0a6!2sInstituto%20de%20Arquitetura%20e%20Urbanismo%20da%20Universidade%20de%20S%C3%A3o%20Paulo%20(IAU-USP)!5e0!3m2!1spt-BR!2sbr!4v1737664574804!5m2!1spt-BR!2sbr",
+          "courses": [
+              "Bacharelado em Arquitetura e Urbanismo"
+          ],
+          "infra": [
+              "Laboratório de Modelos e Plástica",
+              "Sala pró-alunos",
+              "Laboratório de Construção Civil",
+              "Laboratório de Conforto Ambiental"
+          ],
+          "website": "https://www.iau.usp.br/",
+          "foundation_year": 2010,
+          "history": "O Instituto de Arquitetura e Urbanismo (IAU) foi criado em 14 de dezembro de 2010, como resultado de uma decisão unânime do Conselho Universitário da USP. Sua fundação representou o reconhecimento da trajetória do antigo Departamento de Arquitetura e Urbanismo, que integrou a Escola de Engenharia de São Carlos (EESC) por mais de quatro décadas. Desde então, o IAU consolidou-se como um centro de excelência em ensino, pesquisa e extensão nas áreas de Arquitetura e Urbanismo, atendendo às demandas regionais e nacionais por profissionais capacitados para planejar e produzir ambientes urbanos sustentáveis. A criação do instituto reflete uma aspiração histórica do campus e da cidade de São Carlos, reconhecida em avaliações externas que destacaram a relevância e a qualidade das atividades acadêmicas desenvolvidas.",
+          "mission": "A missão do Instituto de Arquitetura e Urbanismo (IAU) da USP é formar professores, pesquisadores e profissionais altamente capacitados, promovendo a integração entre ensino, pesquisa, extensão universitária e prática profissional. Inserido em duas áreas de concentração – Teoria e História da Arquitetura e do Urbanismo, e Arquitetura, Urbanismo e Tecnologia – o IAU busca fomentar a produção de conhecimento crítico e inovador. O instituto visa capacitar seus discentes para desenvolver soluções tecnológicas, projetuais e artísticas que atendam aos desafios contemporâneos, contribuindo para a construção de ambientes urbanos mais sustentáveis e para o avanço do pensamento crítico na área.​"
+      },
+      {
+          "id": 5,
+          "logo": "https://www2.ifsc.usp.br/portal-ifsc/wp-content/uploads/2017/03/logotipo_ifsc_750x170.jpg",
+          "video": "https://youtu.be/bYHhacfJzeQ?si=cS0v_BqK0dZXhkY4",
+          "image1": "https://www2.ifsc.usp.br/portal-ifsc/wp-content/uploads/2021/08/adm-11.jpg",
+          "image2": "https://www2.ifsc.usp.br/portal-ifsc/wp-content/uploads/2021/08/cfbio-11.jpg",
+          "acronym": "IFSC",
+          "name": "Instituto de Física de São Carlos",
+          "location": "São Carlos",
+          "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.069650723958!2d-47.90008922564885!3d-22.008642079897346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b87734a55e2a89%3A0xdf4430229c1ecdbd!2sIFSC%20-%20Instituto%20de%20F%C3%ADsica%20de%20S%C3%A3o%20Carlos!5e0!3m2!1spt-BR!2sbr!4v1737664679363!5m2!1spt-BR!2sbr",
+          "courses": [
+              "Ciências Físicas e Biomoleculares",
+              "Física",
+              "Física Computacional",
+              "Licenciatura em Ciências Exatas"
+          ],
+          "infra": [
+              "Biblioteca",
+              "Laboratórios de Ensino",
+              "Oficinas",
+              "Centros de Pesquisa",
+              "Auditório"
+          ],
+          "groups":[
+            {
+              "id":1,
+              "name": "Filosofísica!",
+              "logo": "https://yt3.googleusercontent.com/H3LOS2ni06rkUSQCIKCNMXxUAcC_FKcjns4mR71ryMbUQKDqRCC86-3dVBCcnxU2bJZpVPZiLw=s160-c-k-c0x00ffffff-no-rj",
+              "miniDescription": "Grupo de extensão focado em discussões sobre filosofia, história e sociologia da ciência.",
+              "detailedDescription": "O Filosofísica é um grupo de discussões aberto e horizontal, com atividades que exploram temas como filosofia, história e sociologia da ciência, além de reflexões gerais sobre ciência e vida. Fundado em 2011, o grupo promove discussões e apresentações semanais no IFSC-USP, proporcionando um ambiente descontraído e inclusivo para reflexões e aprendizados diferentes do tradicional enfoque da graduação.",
+              "otherActivities": "Organiza apresentações e debates semanais, abertos a todos, sobre temas diversos relacionados a ciências exatas e humanas. O grupo também promove atividades que conectam a física e a ciência com aspectos filosóficos e históricos.",
+              "site": "",
+              
+                  "instagram": "https://www.instagram.com/filo.sofisica/",
+                  "youtube": "https://www.youtube.com/channel/UCQrIgaK9txFW669rBh0dDcQ",
+                  "telegram":""
+
+                
+            },
+            {
+              "id":2,
+              "name": "SPIE Student Chapter USP-SC",
+              "logo": "https://yt3.googleusercontent.com/LK6044OwLhpgTZkpfZeSbdQYURXBhOZxSqtPNSPSp_CbU47ZXwk6i6zp98pBSsLSnfUWdfwT=s160-c-k-c0x00ffffff-no-rj",
+              "miniDescription": "Grupo de extensão focado em óptica e fotônica, promovendo tecnologias baseadas no uso da luz.",
+              "detailedDescription": "O USP-SC SPIE Student Chapter, fundado em 2014 no Instituto de Física de São Carlos, é um grupo orientado pela Sociedade Internacional de Óptica e Fotônica (SPIE). Composto por cerca de 26 membros, incluindo alunos de graduação e pós-graduação, o Chapter organiza eventos, visitas técnicas e atividades que fomentam o desenvolvimento de carreiras científicas. Apoiados pela SPIE, os membros exploram temas inovadores em óptica e fotônica.",
+              "otherActivities": "O grupo organiza visitas técnicas, palestras e eventos temáticos. Em 2024, promoveu um evento com foco na participação de mulheres na ciência, incluindo palestras e conversas com convidadas renomadas. Além disso, realiza visitas a laboratórios e instituições de pesquisa.",
+              "site": "",
+              
+                  "instagram": "https://www.instagram.com/spiechapteruspsc/",
+                  "youtube": "https://www.youtube.com/channel/UCDQrwvKS-1QvMusba_9mHzQ",
+                  "telegram":""
+
+              
+            },
+            {
+              "id":3,
+              "name": "Organização da SIFSC",
+              "logo": "https://yt3.googleusercontent.com/ZhW8x9um-iZDpiDIiuF2GAt8fqs3KhZQIUqbLMYRct791XOeyBGG56ckFtEuHR4d7ZuFbqv8mQ=s160-c-k-c0x00ffffff-no-rj",
+              "miniDescription": "Grupo organizador da Semana Integrada do IFSC/USP.",
+              "detailedDescription": "A Organização da SIFSC é responsável por coordenar a Semana Integrada do IFSC/USP (SIFSC), evento que une graduação, pós-graduação e pós-doutorandos em um intercâmbio científico e cultural. Criada em 2011, a SIFSC promove a integração e visibilidade dos trabalhos de pesquisa e extensão da comunidade IFSC, incentivando o orgulho e o compromisso científico entre os participantes.",
+              "otherActivities": "Além da avaliação anual de trabalhos de pós-graduação e do Simpósio Internacional de Iniciação Científica e Tecnológica da USP (SIICUSP), a SIFSC organiza o Prêmio Yvonne Primerano Mascarenhas de Excelência Acadêmica e Divulgação Científica, atrações culturais, minicursos, palestras e outras atividades especiais.",
+              "site": "https://sifsc.ifsc.usp.br/",
+             
+                  "instagram": "https://www.instagram.com/sifsc_usp/",
+                  "youtube": "https://www.youtube.com/sifscUSP",
+                  "telegram":""
+
+                
+            },
+            {
+              "id":4,
+              "name": "Ciência Nossa",
+              "logo": "https://instagram.faqa1-1.fna.fbcdn.net/v/t51.2885-19/298962362_416343650559951_3177269871658776654_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.faqa1-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=FWSdmFymjsMQ7kNvgGy6SgK&_nc_gid=8a10f3f0957b4438ab4e9ef134daaa72&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AYBjxWUSzKG9q0cvC_ifIg3AScXkdcQ8ZN8nA6aVACo5Uw&oe=6757814A&_nc_sid=22de04",
+              "miniDescription": "Grupo de extensão que realiza apresentações quinzenais sobre temas de física.",
+              "detailedDescription": "O Ciência Nossa é um grupo dedicado a promover apresentações quinzenais abordando temas diversos relacionados à física. Com um foco educativo e reflexivo, o grupo busca tornar a ciência mais acessível e estimular o interesse por questões científicas entre seus participantes.",
+              "otherActivities": "Além das apresentações, o grupo incentiva debates e discussões que ampliam o entendimento sobre a física e suas aplicações.",
+              "site": "",
+              
+                  "instagram": "https://www.instagram.com/ciencia.nossa/",
+                  "youtube":"",
+                  "telegram":""
+
+                
+            },
+            {
+              "id":5,
+              "name": "USP-IFSC OPTICA",
+              "logo": "https://instagram.faqa1-1.fna.fbcdn.net/v/t51.2885-19/246524092_425120365628474_6159853802036962024_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.faqa1-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=EWDY06XZISgQ7kNvgEgAWwf&_nc_gid=82dd10be70f8461d93824ef4e37e9074&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AYDIwkBE8F44s713nGVIz1K30GSELAMQS2Le4zzzH6j9zw&oe=67578B40&_nc_sid=22de04",
+              "miniDescription": "Capítulo estudantil da Sociedade Óptica com foco em óptica e fotônica.",
+              "detailedDescription": "O USP-IFSC OPTICA é um capítulo estudantil da Sociedade Óptica (Optica) com o objetivo de promover o desenvolvimento profissional e disseminar conhecimento na área de óptica e fotônica. Suas atividades envolvem tanto a comunidade acadêmica da USP quanto o público em geral.",
+              "otherActivities": "O grupo organiza workshops, seminários, visitas técnicas e eventos sociais para fomentar o interesse e o conhecimento em óptica e fotônica.",
+              "site": "",
+              
+                  "instagram": "https://www.instagram.com/optica.ifsc/",
+                  "youtube":"",
+                  "telegram":""
+
+               
+            } 
+          ],
+          "website": "https://www2.ifsc.usp.br",
+          "foundation_year": 1954,
+          "history": "O IFSC teve sua origem na Escola de Engenharia de São Carlos (EESC), fundada em 1954, quando constituía o seu Departamento de Física. Em 1971, em virtude da reforma universitária, passou a fazer parte do Instituto de Física e Química de São Carlos (IFQSC), tendo sido finalmente criado como tal em 1994, com o desdobramento do antigo IFQSC.",
+          "mission": "A missão do Instituto de Física de São Carlos (IFSC) é promover a excelência no ensino, pesquisa e extensão em Física, formando profissionais altamente qualificados. O instituto valoriza o rigor científico, a pesquisa e o compromisso com a inovação e resolução de problemas que assolam a sociedade."
+      }
+  ]
+}

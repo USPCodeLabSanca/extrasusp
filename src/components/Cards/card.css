@@ -1,0 +1,47 @@
+
+.card {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: flex-start;
+  width: 300px; 
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Impede que as imagens saiam da área do card */
+}
+
+#grow:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+.logo {
+  margin: 10px;
+  border-radius: 10px;
+  width: 50%; 
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.content {
+  padding: 15px;
+  text-align: center;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+
+}
+
+.miniDescription {
+  font-size: 14px;
+  color: #555;
+}

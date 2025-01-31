@@ -1,0 +1,53 @@
+.tema{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.topico1{
+    background: #1094AB;
+    color:whitesmoke;
+    font-weight: bold;
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.ex1{
+    padding: 20px 10px 20px;
+    font-size: 25px;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+
+.topico2{
+    background: #1094AB;
+    color:whitesmoke;
+    font-weight: bold;
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.ex2{
+    padding: 20px 10px 20px;
+    font-size: 25px;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+.topico3{
+    background: #1094AB;
+    color:whitesmoke;
+    font-weight: bold;
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.ex3{
+    padding: 20px 10px 20px;
+    font-size: 25px;
+    text-align: justify;
+    padding-bottom: 50px;
+}
