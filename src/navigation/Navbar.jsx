@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.css';
-import Home from '../pages/Home';
+import Home from '../pages/Info';
 
 // Função para carregar os dados dos institutos do JSON
 async function fetchInstitutes() {

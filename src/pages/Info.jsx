@@ -1,7 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap';
-import './Home.css';
+import './Info.css';
 
-const Home = () =>{
+const Info = () =>{
     return(
         <Container>
             <div className="tema mt-5">
@@ -23,11 +23,11 @@ Para cumprir a carga horária exigida, o aluno pode participar de atividades em 
                     <span className="topico3">O que são as Atividades Extensionistas Curriculares (AEX)?</span>
             </div>
             <div className="ex3">
-                As <b>Atividades Extensionistas Curriculares (AEX)</b> envolvem diversas formas de participação dos estudantes em atividades de extensão, com o objetivo de <b>conectar os conhecimentos adquiridos na Universidade à sociedade</b>. Sob a coordenação de docentes, os alunos irão desenvolver atividades que interagem com o público externo, permitindo que se aproximem do meio fora da universidade e ampliem seus conhecimentos <b>de maneira prática</b>. Essas atividades de extensão correspondem, no mínimo, a <b>10% (dez por cento)</b> do total da <b>carga horária curricular</b> do curso.
+                As <b>Atividades Extensionistas Curriculares (AEX)</b> envolvem diversas formas de participação dos estudantes em atividades de extensão, com o objetivo de <b>conectar os conhecimentos adquiridos na Universidade à sociedade</b>. Sob a coordenação de docentes, os alunos irão desenvolver atividades que interagem com o público externo, permitindo que se aproximem do meio fora da universidade e ampliem seus conhecimentos <b>de maneira prática</b>. Essas atividades de extensão correspondem, no mínimo, a <b>10% (dez por cento)</b> do total da <b>carga horária curricular</b> do curso. Vale ressaltar que o <b>cumprimento das AEX é obrigatório </b> para todos os <b> ingressantes nos cursos de Graduação a partir de 2023. </b>
             </div>
 
         </Container>
     )
 }
 
-export default Home
+export default Info
