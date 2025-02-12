@@ -3,7 +3,7 @@ import './Info.css';
 
 const Info = () =>{
     return(
-        <Container>
+        <Container className='container-info'>
             <div className="tema mt-5">
                 <span className="topico1">O que são os Grupos Extracurriculares?</span>
             </div>

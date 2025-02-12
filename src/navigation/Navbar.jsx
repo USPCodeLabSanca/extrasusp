@@ -26,18 +26,12 @@ function Navbar_result() {
     <div>
       <Navbar className="navv fixed-top " bg="light" data-bs-theme="light">
         <Container>
-          <Navbar.Brand  className="nomesite fw-bold">Extras USP</Navbar.Brand>
+          <Navbar.Brand className="nomesite fw-bold">Extras USP</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="posicao-navbar ms-auto text-center d-flex justify-content-center align-items-center">
-              <Nav.Link as={Link} to="/" className="text-secondary">Início</Nav.Link>              
-              <NavDropdown title="Institutos" id="basic-nav-dropdown" className="text-secondary">
-                {institutes.map((institute) => (
-                  <NavDropdown.Item key={institute.id} as={Link} to={`/institute/${institute.id}`}>
-                    {institute.name}
-                  </NavDropdown.Item>
-                ))}
-              </NavDropdown>
+              <Nav.Link as={Link} to="/" className="text-secondary">Sobre</Nav.Link>
+              <Nav.Link as={Link} to="/extension-groups" className="text-secondary">Grupos de Extensão</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

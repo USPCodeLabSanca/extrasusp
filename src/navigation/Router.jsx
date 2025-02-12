@@ -5,6 +5,7 @@ import Navbar_result from "./Navbar";
 import NotFound from "../pages/NotFound";
 import Footer from '../components/footer/Footer';
 import Page from "../pages/Group";
+import ExtensionGroups from "../pages/extensiongroup";
 
 
 // Layout principal com o Navbar e Footer
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/",  
         element: <Home />,
+      },
+      {
+        path: "./extension-groups",
+        element: <ExtensionGroups />
       },
       {
         path: "/institute/:id",  
