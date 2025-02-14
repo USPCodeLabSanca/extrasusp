@@ -1,10 +1,8 @@
 import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
-import Home from "../pages/Info";
-import Institute from "../pages/Institute";
+import Info from "../pages/Info";
 import Navbar_result from "./Navbar";
 import NotFound from "../pages/NotFound";
 import Footer from '../components/footer/Footer';
-import Page from "../pages/Group";
 import ExtensionGroups from "../pages/extensiongroup";
 
 
@@ -25,20 +23,14 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",  
-        element: <Home />,
+        element: <ExtensionGroups />,
       },
       {
-        path: "./extension-groups",
-        element: <ExtensionGroups />
+        path: "/info",
+        element: <Info/>,
       },
-      {
-        path: "/institute/:id",  
-        element: <Institute />,
-      },
-      {
-        path: "/institute/:instituteId/page/:groupId",  
-        element: <Page />,
-      },
+
+     
       {
         path: "/notfound", 
         element: <NotFound />,

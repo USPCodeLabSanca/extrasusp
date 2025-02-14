@@ -1,5 +1,4 @@
 .py-3 {
-  padding-top: 1rem !important;
   padding-bottom: 1rem !important;
 }
 .justify-content-center {
@@ -12,8 +11,8 @@
   box-sizing: border-box;
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
+  
+  width: 100%;
 }
 body {
   font-family: var(--bs-body-font-family);
@@ -67,4 +66,9 @@ body{
   text-align: justify;
   padding-bottom: 50px;
   color:black;
+}
+
+.navvside{
+ background-color: rgb(226, 242, 255);
+ 
 }

@@ -8,19 +8,9 @@ import './Navbar.css';
 import Home from '../pages/Info';
 
 // Função para carregar os dados dos institutos do JSON
-async function fetchInstitutes() {
-  const response = await fetch('/institutes_data.json');  // Caminho para o arquivo JSON
-  const data = await response.json();
-  return data.institutes;
-}
+
 
 function Navbar_result() {
-  const [institutes, setInstitutes] = useState([]);
-
-  useEffect(() => {
-    // Carregar dados dos institutos no estado
-    fetchInstitutes().then(data => setInstitutes(data));
-  }, []);
 
   return (
     <div>
@@ -30,8 +20,8 @@ function Navbar_result() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="posicao-navbar ms-auto text-center d-flex justify-content-center align-items-center">
-              <Nav.Link as={Link} to="/" className="text-secondary">Sobre</Nav.Link>
-              <Nav.Link as={Link} to="/extension-groups" className="text-secondary">Grupos de Extensão</Nav.Link>
+              <Nav.Link as={Link} to="/" className="text-secondary">Grupos de Extensão</Nav.Link>
+              <Nav.Link as={Link} to="/info" className="text-secondary">Sobre</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Institute.css";
+import "./extensiongroup.css";
 import Card from "../components/Cards/Card";
 import { useNavigate } from "react-router-dom";
 import { Container } from 'react-bootstrap';
@@ -59,49 +59,68 @@ function ExtensionGroups() {
   }
 
   return (
-    <Container className="container-info">
-      <h2 className="temapadrao mt-3">Grupos de extensão</h2>
+<Container fluid className="container-info">
+<div className="row ">
+    <div className="bg-light col-lg-2 col-sm-3  ">
+        <div className="sticky-top">
+            <div className="barra ">
+              <ul className="nav flex-column">
 
-      {institutes.map((institute) => (
-        <div key={institute.id} style={{ marginBottom: "40px" }}>
-          <h3>{institute.name}</h3> {/* Nome do instituto */}
-
-          <div
-            className="card-container"
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              justifyContent: "space-evenly",
-            }}
-          >
-            {institute.groups && institute.groups.length > 0 ? (
-              institute.groups.map((group) => (
-                <button
-                  key={group.id}
-                  onClick={() => navigate(`/institute/${institute.id}/page/${group.id}`)}
-                  style={{
-                    background: "none",
-                    border: "none",
-                    padding: 0,
-                    cursor: "pointer",
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
-                >
-                  <Card
-                    name={group.name}
-                    miniDescription={group.miniDescription}
-                    logo={group.logo}
-                  />
-                </button>
-              ))
-            ) : (
-              <p>Nenhum grupo de extensão disponível.</p>
-            )}
-          </div>
+            
+           oioioioi
+              </ul>
+            </div>
         </div>
-      ))}
+    </div>
+    <div className="col-lg-10 col-sm-8 ml-auto" id="main">
+       <div className="conteudo">
+       <h2 className="temapadrao mt-3">Grupos de extensão</h2>
+
+
+{institutes.map((institute) => (
+      <div key={institute.id} style={{ marginBottom: "40px" }}>
+        <h3>{institute.name}</h3> {/* Nome do instituto */}
+
+        <div
+          className="card-container"
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-evenly",
+          }}
+        >
+          {institute.groups && institute.groups.length > 0 ? (
+            institute.groups.map((group) => (
+              <button
+                key={group.id}
+                onClick={() => navigate(`/institute/`)} //mudar aqui para colocar link da rede social
+                style={{
+                  background: "none",
+                  border: "none",
+                  padding: 0,
+                  cursor: "pointer",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
+              >
+                <Card
+                  name={group.name}
+                  miniDescription={group.miniDescription}
+                  logo={group.logo}
+                />
+              </button>
+            ))
+          ) : (
+            <p>Nenhum grupo de extensão disponível.</p>
+          )}
+        </div>
+      </div>
+    ))}
+</div>
+</div>
+        </div>
+
     </Container>
   );
 }
