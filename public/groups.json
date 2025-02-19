@@ -1,0 +1,398 @@
+[
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "GANESH",
+    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_kNxCzmKdVsP-YU2agg348XdvvHt9XzgVSQujyKx4IELPQ=s200-c-k-c0x00ffffff-no-rj",
+    "description": "Grupo extracurricular focado em segurança da informação",
+    "link": "https://ganesh.icmc.usp.br/",
+    "campus": "São Carlos",
+    "tags": ["Segurança"]
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "Campanha USP do Agasalho",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbK0vs5elmAFnWu1DzNJoAaJC_heDXL1DFQA&s200",
+    "description": "Grupo extracurricular focado em arrecadar e destinar roupas para entidades sociais da cidade",
+    "link": "https://campanhauspdoagasalho.eesc.usp.br/#",
+    "campus": "São Carlos",
+    "tags": ["Solidário"]
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "Corvus AI",
+    "logo": "https://ugc.production.linktr.ee/190663af-0371-4101-9225-f9f7b528790c_Camada-1.png?io=true&size=avatar-v3_0&width=200&height=200",
+    "description": "Grupo extracurricular focado em pesquisa e desenvolvimento cientifico voltada para IA ",
+    "link": "https://corvus.icmc.usp.br",
+    "campus": "São Carlos",
+    "tags": ["IA"]
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "DATA",
+    "logo": "https://yt3.googleusercontent.com/QOrTmQczfI3AgWRJncrvlAr0X8BCtD27lAdpaXeBhcOrSPrq1G5eGnQpFdUwT5Q7NhbzL1bK2A=s200-c-k-c0x00ffffff-no-rj",
+    "description": "Grupo extracurricular focado em ciência de dados e aprendizado de máquina",
+    "link": "https://dataicmc.vercel.app/br",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "GELOS",
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQF6S3TcSe5Ajw/company-logo_200_200/company-logo_200_200/0/1643997499541/gelos_icmc_logo?e=2147483647&v=beta&t=Dx5Xix9xyv11QPjR83A-aF-tIFkM1lHV1YTunqsnfyo",
+    "description": "Grupo de extensão focado em Livre e Open Source",
+    "link": "https://dataicmc.vercel.app/br",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "GRACE",
+    "logo": "https://meninas.sbc.org.br/wp-content/uploads/2018/05/37388354_2351999355027071_2087547362204450816_n.jpg",
+    "description": "Grupo de extensão focado em promover a inclusão de mulheres nas ciências exatas e tecnologia",
+    "link": "https://grace.icmc.usp.br/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "GEMA",
+    "logo": "https://scontent.fqps5-1.fna.fbcdn.net/v/t39.30808-6/308618904_420779336868865_5760985335105042595_n.png?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ae88xWrDJrEQ7kNvgG6TUk_&_nc_oc=AdjTHDcvNsjqcVKukk9qbYvEMmK_MfWgD-W81uyPhIsAyIucoXmcnINP8lwBXU6rM-w&_nc_zt=23&_nc_ht=scontent.fqps5-1.fna&_nc_gid=AcMOcGvY_K2Ip9fXjeRaQR5&oh=00_AYA-_SWUjqVAn5_hml4ybCI8AK-fOCZpuimdK_rULnvLig&oe=676CF5F7",
+    "description": "Grupo de extensão focado em programação competitiva e preparação para maratonas de programação.",
+    "link": "http://gema.icmc.usp.br/About",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "LESC",
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHUzZl8Xwt5MA/company-logo_200_200/company-logo_200_200/0/1630575828603/ligadeempreendedorismosc_logo?e=2147483647&v=beta&t=11ZlGCE_Sen7Sx4eLU6tir2OxP-UoSpUAbte37xjFzs",
+    "description": "Grupo de extensão focado em promover o empreendedorismo entre universitários de São Carlos e região",
+    "link": "https://www.instagram.com/lesc_sanca/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "NEMO",
+    "logo": "https://ugc.production.linktr.ee/2dsUgk6LSKuW2A15T5XC_ubpzlrJfSBWHaZPi?io=true&size=avatar-v3_0",
+    "description": "O grupo tem como objetivo motivar alunos da graduação a explorar e resolver problemas matemáticos considerados fundamentais na área. Além disso, prepara estudantes de diversos cursos da USP São Carlos para competições como OBMU, CIIM e IMC, promovendo o estudo aprofundado de matemática e a aplicação prática do conhecimento",
+    "link": "https://www.instagram.com/nemo_usp/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "Projeto Aprender",
+    "logo": "https://aprender.rotarybandeirantes.org/img/logo_aprender.png",
+    "description": "Grupo de extensão focado em oferecer reforço educacional gratuito para alunos de escolas públicas.",
+    "link": "https://aprender.rotarybandeirantes.org/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "PET Computação USP",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dv4eANRh2vGJP8dGOQ5yRwa8HExrqGGOEw&s",
+    "description": "Grupo de extensão focado em ensino, pesquisa e extensão para complementar a formação acadêmica em computação",
+    "link": "https://pet.icmc.usp.br/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "FoG (Fellowship of The Game)",
+    "logo": "https://www.fog.icmc.usp.br/static/img/brasao.93a9aab.png",
+    "description": "Grupo de extensão focado em desenvolvimento de jogos e disseminação de conhecimento através de cursos e eventos",
+    "link": "https://www.fog.icmc.usp.br/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "USPCodeLab",
+    "logo": "data:image/png;base64,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",
+    "description": "Grupo de extensão focado em inovação tecnológica e formação prática em desenvolvimento de software.",
+    "link": "https://uclsanca.icmc.usp.br/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "Warthog Robotics",
+    "logo": "https://i0.wp.com/wr.sc.usp.br/wp-content/uploads/elementor/thumbs/wr_logo_vertical_1024-pk6qnxvt11vezjtt4rtc48stkba2itlfq5cpb1njls.png?w=1170&ssl=1",
+    "description": "Grupo de extensão focado em pesquisa e desenvolvimento de tecnologias robóticas para competições e aplicações práticas.",
+    "link": "https://wr.sc.usp.br/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Ciências Matemáticas e de Computação",
+    "name": "Women in Tech",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmagbhSBmswuJcuoX5XkCVBAsB0WEHkPd_wg&s",
+    "description": "Grupo de extensão focado em discutir e promover a representatividade feminina em ciência e tecnologia.",
+    "link": "https://wit.icmc.usp.br/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "ADA",
+    "logo": "https://yt3.googleusercontent.com/tYHpqkfoYcB_Gv_NIbvMdirWVuG7q5SWqc6aFJytfs3fUnzdJ6_OL1_KewC6dkblKEnZzSZO=s160-c-k-c0x00ffffff-no-rj",
+    "description": "Grupo extracurricular focado em projetos reais de engenharia de computação.",
+    "link": "http://adaec.icmc.usp.br/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "EESC USP Baja SAE",
+    "logo": "https://baja.eesc.usp.br/logo.png",
+    "description": "Grupo extracurricular focado em desenvolvimento de veículos off-road para competições.",
+    "link": "https://baja.eesc.usp.br/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "EESC USP AeroDesign",
+    "logo": "https://scontent.faqa1-1.fna.fbcdn.net/v/t39.30808-6/301039656_503706805088447_4958659522987186813_n.png",
+    "description": "Grupo de extensão focado em desenvolvimento e competição de aeronaves.",
+    "link": "https://aerodesign.eesc.usp.br/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "EESC USP Formula SAE",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv1TBSlhAzhNtiu_uGRHiqT5mUcjCeczRhfg&s",
+    "description": "Grupo de extensão focado em desenvolvimento de protótipos automotivos para competições.",
+    "link": "https://www.youtube.com/@EESCFormulaSAE",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "EESC USP Tupã",
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQFH49RuQNaTOg/company-logo_200_200/company-logo_200_200/0/1630485718487/usptupa_logo?e=2147483647&v=beta&t=TGq-j49p6GGXgdfObDidCSU3eTmpoEmrEP_xGrGQ9Wg",
+    "description": "Grupo de extensão focado em desenvolver carros elétricos de alta performance.",
+    "link": "https://www.instagram.com/usptupa/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "Econ",
+    "logo": "https://kbpe3He2Q0ChNGla1Xzy_NktSBS8Ek48rfH07 (400×400)",
+    "description": "Grupo de extensão focado em tecnologia do concreto e inovação estrutural.",
+    "link": "https://www.instagram.com/econ.usp/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "GEISA",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTazBkdb73-l7Igz7RQIkomKex7zWhbQTgeng&s",
+    "description": "Grupo de extensão focado em intervenções socioambientais e sustentabilidade.",
+    "link": "https://sites.usp.br/geisa/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "SEA - Semana da Engenharia Ambiental",
+    "logo": "https://instagram.faqa1-1.fna.fbcdn.net/v/t51.2885-19/424430739_1328394341140391_7094922184191319782_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.faqa1-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=75MwKMJNJ74Q7kNvgFIVFs0&_nc_gid=e5806803218a4098a313827118fee54c&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AYBZqeTdM536ZeCQhysdStDOfelVsQWB7Q9jVdG8aEmQAQ&oe=6756C4A0&_nc_sid=7a9f4b",
+    "description": "Grupo de extensão focado em eventos sobre engenharia ambiental e sustentabilidade.",
+    "link": "https://www.instagram.com/sea.eesc/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "Zenith EESC USP",
+    "logo": "https://instagram.faqa1-1.fna.fbcdn.net/v/t51.2885-19/30829661_1956925987674598_6049847566860812288_n.jpg?stp=dst-jpg_s150x150",
+    "description": "Grupo de extensão focado em engenharia aeroespacial e construção de satélites.",
+    "link": "http://zenith.eesc.usp.br/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "Grupo organizador do SEnC - Semana da Engenharia de Computação",
+    "logo": "https://scontent.fqps5-1.fna.fbcdn.net/v/t39.30808-1/326726310_547946494021798_753220138221760302_n.png?stp=dst-png_s200x200&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=NJ40lHGfTMAQ7kNvgHjXqlu&_nc_oc=AdgtWFxl3Gn4LbeShpZyi5bw5-TzpGoCgLLd7tyZ1j6qrnUXUpT3wD7mUpmVQwKnTDo&_nc_zt=24&_nc_ht=scontent.fqps5-1.fna&_nc_gid=AieeBy2dCX1HUNYmJaDz2bf&oh=00_AYCOTuI0X0dYYWQCRGQoclG6sAlogmTfb5MHZhiniSRCSg&oe=676CF890",
+    "description": "Grupo de extensão focado em organizar a Semana da Engenharia de Computação.",
+    "link": "https://senc.icmc.usp.br/#:~:text=SOBRE,profissional%20do%20engenheiro%20de%20computa%C3%A7%C3%A3o.",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "WiE (Women in Engineering)",
+    "logo": "https://scontent.faqa1-1.fna.fbcdn.net/v/t39.30808-1/233075197_219529360180602_6498606940153635594_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=101&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=CyAoKQE87F4Q7kNvgFdKrI2&_nc_zt=24&_nc_ht=scontent.faqa1-1.fna&_nc_gid=AjXogOOwJsCQu_TBYv9hEQX&oh=00_AYCvZ6njdcf1Q5Zr1AVAU-Oc7HlSQbr78IXgDVJzdxCgkg&oe=6756C30F",
+    "description": "Grupo de extensão focado em incentivar a permanência de mulheres nos cursos de engenharia e ciências exatas.",
+    "link": "https://www.instagram.com/wieuspsaocarlos/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "TOPUS - Projetos Aeroespaciais",
+    "logo": "https://lh4.googleusercontent.com/bBbTbTirhCOUwGSbO58bK0t5MnorPINkD48l10v_yXCv3Rx1BK1cYYqUYHonONHl16CPLS5XMO3auOA0vbFNgb3sOCtCdzy2WRoB8jtd9iXOCt7CeQHeJnUCUcvz9TB7vQ=w1280",
+    "description": "Grupo de extensão focado em pesquisa e desenvolvimento de projetos aeroespaciais.",
+    "link": "http://www.topus.eesc.usp.br/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "Ramo Estudantil IEEE - USP São Carlos",
+    "logo": "https://scontent.faqa1-1.fna.fbcdn.net/v/t39.30808-6/327298266_687058819782964_350862808031852114_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=G87ApYJvfVUQ7kNvgG75Cx6&_nc_zt=23&_nc_ht=scontent.faqa1-1.fna&_nc_gid=AylQun7YGc1aZK1tgPSwf0r&oh=00_AYDw1DPCGZ-WitU5V11M0XErVNkeb52dfhVeklq1ey-bWw&oe=6756CE99",
+    "description": "Grupo de extensão focado na difusão do conhecimento prático e teórico das ciências e engenharias.",
+    "link": "https://www.instagram.com/ieeeuspsc/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "Núcleo de Empreendedorismo da USP São Carlos (NEU-SC)",
+    "logo": "https://scontent.faqa1-1.fna.fbcdn.net/v/t39.30808-1/304926464_443601391123004_1173162252668678545_n.png?stp=dst-png_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=fkx3rbxWtOsQ7kNvgGjS9SQ&_nc_zt=24&_nc_ht=scontent.faqa1-1.fna&_nc_gid=AkiXmhdfIKlQdf6FbJV8sXg&oh=00_AYBiJ6zYKddWTFr4RgzTdfJ_udKpqxquitH7Fe9o8v2Drg&oe=6756E3BF",
+    "description": "Grupo de extensão focado em difundir a cultura empreendedora no campus da USP São Carlos.",
+    "link": "https://www.youtube.com/neusaocarlos",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "Campanha USP do Agasalho",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbK0vs5elmAFnWu1DzNJoAaJC_heDXL1DFQA&s",
+    "description": "Grupo extracurricular focado em arrecadar e destinar roupas para entidades sociais da cidade",
+    "link": "https://campanhauspdoagasalho.eesc.usp.br/#",
+    "campus": "São Carlos",
+    "tags": ["Solidário"]
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "SEMEAR",
+    "logo": "cropped-s.png",
+    "description": "Grupo de extensão focado em projetos inovadores de engenharia e robótica.",
+    "link": "https://www.instagram.com/semear.usp/?hl=pt",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "Sematron - Semana da Engenharia Mecatrônica EESC USP",
+    "logo": "https://scontent.faqa1-1.fna.fbcdn.net/v/t39.30808-1/304072469_497952945672210_8414318555876934122_n.jpg?stp=dst-jpg_s200x200&_nc_cat=102&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=tRP5F5t1qxYQ7kNvgFfwUWH&_nc_zt=24&_nc_ht=scontent.faqa1-1.fna&_nc_gid=A-LcMv39I5uTbww9BULbExy&oh=00_AYAeF3PSV7zRxHw_f5C8C14pjfpLa1DR58UwqZMEId0rzg&oe=6756D109",
+    "description": "Grupo de extensão focado em promover o intercâmbio de conhecimento em engenharia mecatrônica.",
+    "link": "https://www.sematron.com.br/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "SEA (Grupo organizador da Semana de Engenharia Aeronáutica)",
+    "logo": "https://sea.eesc.usp.br/wp-content/uploads/2021/05/logo.png",
+    "description": "Grupo de extensão focado em promover a discussão e formação na área de engenharia aeronáutica.",
+    "link": "https://www.facebook.com/seaeronautica/?_rdc=1&_rdr",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "Sameca - Secretaria Acadêmica da Mecânica",
+    "logo": "https://sameca.eesc.usp.br/wp-content/uploads/2024/07/logo-s-letra-300x233.png",
+    "description": "Grupo de extensão focado em complementar a formação de engenheiros mecânicos.",
+    "link": "https://www.instagram.com/samecaeesc/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Escola de Engenharia de São Carlos",
+    "name": "SEC - Semana da Engenharia Civil EESC USP",
+    "logo": "qv4Tq8OdTwKZefpVAQDv_nT1s754yGwVGI0qB",
+    "description": "Grupo de extensão focado em promover eventos relacionados à engenharia civil.",
+    "link": "https://www.instagram.com/sec.eesc/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Química de São Carlos",
+    "name": "ACS USP Student Chapter",
+    "logo": "https://instagram.faqa1-1.fna.fbcdn.net/v/t51.2885-19/365424220_263269666486840_1714228208481665306_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.faqa1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=Xto0D6hd3YoQ7kNvgEKcKXd&_nc_gid=6a871e5d190d4040b2bc6c0a11bc6238&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AYD33uj7LZBiIe52ufePVeHCfHN05E10DBYyAYqLZ3TrpQ&oe=6756CEE3&_nc_sid=22de04",
+    "description": "Grupo de extensão focado em aproximar a ciência do público.",
+    "link": "https://www.instagram.com/acschapterusp/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Química de São Carlos",
+    "name": "Comissão Organizadora Discente/SEMAQ",
+    "logo": "https://extensao.iqsc.usp.br/files/2022/09/Logo-COD-SEMAQ-Preto-1-Laura-Pereira-Clemente-300x298.png",
+    "description": "Grupo de extensão focado na organização da Semana da Química 'Prof. Edson Rodrigues'.",
+    "link": "https://www.instagram.com/semaq.iqsc/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Química de São Carlos",
+    "name": "EducAção",
+    "logo": "https://extensao.iqsc.usp.br/files/2022/09/Logo-Ana-Claudia-Kasseboehmer-300x300.jpeg",
+    "description": "Grupo de extensão focado em promover melhorias no ensino e aprendizagem da educação básica.",
+    "link": "https://educacao.iqsc.usp.br/atividades/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Química de São Carlos",
+    "name": "PET Química IQSC",
+    "logo": "https://instagram.faqa1-1.fna.fbcdn.net/v/t51.2885-19/278803532_5610941698919273_1051250284175082360_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.faqa1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=EmSY4-8mOp4Q7kNvgEFjH8i&_nc_gid=d46cd69d9aa34581a95c7716018e0372&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AYDjtQCH54xOntQ_eEDnks2HFiRwxXhqZq_b1fEgsaMJEw&oe=6756E7AE&_nc_sid=7a9f4b",
+    "description": "Grupo de extensão focado na formação tutorial em ensino, pesquisa e extensão.",
+    "link": "https://www.instagram.com/pet_quimicaiqsc/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Física de São Carlos",
+    "name": "Filosofísica!",
+    "logo": "https://yt3.googleusercontent.com/H3LOS2ni06rkUSQCIKCNMXxUAcC_FKcjns4mR71ryMbUQKDqRCC86-3dVBCcnxU2bJZpVPZiLw=s160-c-k-c0x00ffffff-no-rj",
+    "description": "Grupo de extensão focado em discussões sobre filosofia, história e sociologia da ciência.",
+    "link": "https://www.instagram.com/filo.sofisica/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Física de São Carlos",
+    "name": "SPIE Student Chapter USP-SC",
+    "logo": "https://yt3.googleusercontent.com/LK6044OwLhpgTZkpfZeSbdQYURXBhOZxSqtPNSPSp_CbU47ZXwk6i6zp98pBSsLSnfUWdfwT=s160-c-k-c0x00ffffff-no-rj",
+    "description": "Grupo de extensão focado em óptica e fotônica, promovendo tecnologias baseadas no uso da luz.",
+    "link": "https://www.instagram.com/spiechapteruspsc/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Física de São Carlos",
+    "name": "Organização da SIFSC",
+    "logo": "https://yt3.googleusercontent.com/ZhW8x9um-iZDpiDIiuF2GAt8fqs3KhZQIUqbLMYRct791XOeyBGG56ckFtEuHR4d7ZuFbqv8mQ=s160-c-k-c0x00ffffff-no-rj",
+    "description": "Grupo organizador da Semana Integrada do IFSC/USP.",
+    "link": "https://sifsc.ifsc.usp.br/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Física de São Carlos",
+    "name": "Ciência Nossa",
+    "logo": "https://instagram.faqa1-1.fna.fbcdn.net/v/t51.2885-19/298962362_416343650559951_3177269871658776654_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.faqa1-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=FWSdmFymjsMQ7kNvgGy6SgK&_nc_gid=8a10f3f0957b4438ab4e9ef134daaa72&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AYBjxWUSzKG9q0cvC_ifIg3AScXkdcQ8ZN8nA6aVACo5Uw&oe=6757814A&_nc_sid=22de04",
+    "description": "Grupo de extensão que realiza apresentações quinzenais sobre temas de física.",
+    "link": "https://www.instagram.com/ciencia.nossa/",
+    "campus": "São Carlos",
+    "tags": []
+  },
+  {
+    "institute": "Instituto de Física de São Carlos",
+    "name": "USP-IFSC OPTICA",
+    "logo": "https://instagram.faqa1-1.fna.fbcdn.net/v/t51.2885-19/246524092_425120365628474_6159853802036962024_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.faqa1-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=EWDY06XZISgQ7kNvgEgAWwf&_nc_gid=82dd10be70f8461d93824ef4e37e9074&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AYDIwkBE8F44s713nGVIz1K30GSELAMQS2Le4zzzH6j9zw&oe=67578B40&_nc_sid=22de04",
+    "description": "Capítulo estudantil da Sociedade Óptica com foco em óptica e fotônica.",
+    "link": "https://www.instagram.com/optica.ifsc/",
+    "campus": "São Carlos",
+    "tags": []
+  }
+]

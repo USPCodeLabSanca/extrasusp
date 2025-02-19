@@ -11,7 +11,6 @@
   box-sizing: border-box;
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-  
   width: 100%;
 }
 body {
@@ -24,7 +23,6 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 h1{
-  text-align: center;
   color: white;
 }
 
@@ -70,5 +68,101 @@ body{
 
 .navvside{
  background-color: rgb(226, 242, 255);
- 
+}
+
+.pesquisa{
+  margin-top: 70.5px;
+}
+
+.barra_p{
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+}
+
+.filtros{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+.barra_f{
+  width: 100%;
+  height: 35px;
+  margin-bottom: 15px;
+}
+
+label{
+  font-weight: bold;
+}
+
+.sticky-top{
+  margin-top: 20px;
+}
+
+.selected-tag {
+  padding: 8px 12px;
+  background-color: #1094AB;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tags-section {
+  margin-bottom: 20px;
+}
+
+.tags-section label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.selected-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.selected-tag {
+  padding: 5px 8px;
+  background-color: #1094AB;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.remove-tag {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tag-item {
+  padding: 5px 8px;
+  background-color: #c2c1c1;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tag-item.selected {
+  background-color: #1094AB;
+  color: white;
+}
+
+.tag-item:hover {
+  background-color: #bdbdbd;
 }

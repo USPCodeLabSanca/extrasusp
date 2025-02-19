@@ -4,42 +4,45 @@ import Card from "../components/Cards/Card";
 import { useNavigate } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 
-// Definição dos tipos de dados esperados
 type Group = {
-  id: number;
+  institute: string;
   name: string;
-  miniDescription: string;
   logo: string;
-};
-
-type Institute = {
-  id: number;
-  name: string;
-  groups?: Group[];
+  description: string;
+  link: string;
+  campus: string;
+  tags: string[];
 };
 
 function ExtensionGroups() {
-  const [institutes, setInstitutes] = useState<Institute[]>([]); // Estado tipado corretamente
+  const [groups, setGroups] = useState<Group[]>([]); // Estado tipado corretamente
+  const [filteredGroups, setFilteredGroups] = useState<Group[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false); // Estado para indicar erro
   const navigate = useNavigate();
+  const [filterName, setFilterName] = useState("");
+  const [filterCampus, setFilterCampus] = useState("");
+  const [filterInstitute, setFilterInstitute] = useState("");
+  const [filterTags, setFilterTags] = useState("");
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
 
-  // Função para buscar os dados de todos os institutos
-  const fetchInstitutes = async () => {
+  // Função para buscar os dados de todos os grupos
+  const fetchGroups = async () => {
     try {
-      const response = await fetch("/institutes_data.json");
+      const response = await fetch("/groups.json");
       if (!response.ok) {
         throw new Error("Erro ao carregar os dados.");
       }
       const data = await response.json();
 
-      if (data.institutes && data.institutes.length > 0) {
-        setInstitutes(data.institutes);
+      if (data.length > 0) {
+        setGroups(data);
+        setFilteredGroups(data);
       } else {
         setError(true);
       }
     } catch (error) {
-      console.error("Erro ao buscar os dados dos institutos:", error);
+      console.error("Erro ao buscar os dados dos grupos", error);
       setError(true);
     } finally {
       setLoading(false);
@@ -47,8 +50,64 @@ function ExtensionGroups() {
   };
 
   useEffect(() => {
-    fetchInstitutes();
+    fetchGroups();
   }, []);
+
+  useEffect(() => {
+    let filtered = groups;
+
+    if (filterName) {
+      filtered = filtered.filter(group =>
+        group.name.toLowerCase().includes(filterName.toLowerCase())
+      );
+    }
+
+    if (filterInstitute) {
+      filtered = filtered.filter(group =>
+        filterInstitute && filterInstitute !== "Todos" ? group.institute === filterInstitute : true
+      );
+    }
+
+    if (filterCampus) {
+      filtered = filtered.filter(group =>
+        filterCampus && filterCampus !== "Todos" ? group.campus === filterCampus : true
+      );
+    }
+
+    // Filtra por tags selecionadas
+    if (selectedTags.length > 0) {
+      filtered = filtered.filter(group =>
+        selectedTags.every(tag => group.tags.includes(tag))
+      );
+    }
+
+    const filterGroups = filtered.reduce<Group[]>((acc, group) => {
+      if (!acc.some(existsGroup => existsGroup.name === group.name)) {
+        acc.push(group);
+      }
+      return acc;
+    }, []);
+
+    setFilteredGroups(filterGroups); // Atualiza os grupos
+  }, [filterName, filterInstitute, filterCampus, selectedTags, groups]);
+
+  // Pega todas tags
+  const allTags = Array.from(new Set(groups.flatMap(group => group.tags)));
+
+  // Filtra as tags com base no termo de busca
+  const filteredTags = allTags.filter(tag =>
+    tag.toLowerCase().includes(filterTags.toLowerCase())
+  );
+
+  const addTagSelection = (tag: string) => {
+    if (!selectedTags.includes(tag)) {
+      setSelectedTags([...selectedTags, tag]);
+    }
+  };
+
+  const removeSelectedTag = (tag: string) => {
+    setSelectedTags(selectedTags.filter(t => t !== tag));
+  };
 
   if (loading) {
     return <div className="loading">Carregando...</div>;
@@ -58,16 +117,60 @@ function ExtensionGroups() {
     return <div className="error-message">Erro ao carregar os dados. Tente novamente mais tarde.</div>;
   }
 
+  const campus = Array.from(new Set(groups.map(group => group.campus)));
+  const institutes = Array.from(new Set(groups.map(group => group.institute)));
+  
+
   return (
 <Container fluid className="container-info">
-<div className="row ">
-    <div className="bg-light col-lg-2 col-sm-3  ">
+<div className="row">
+    <div className="bg-light col-lg-2 col-sm-3 col-12 col-sm-4">
         <div className="sticky-top">
-            <div className="barra ">
+            <div className="barra">
               <ul className="nav flex-column">
-
-            
-           oioioioi
+                <div className="pesquisa">
+                  <input className="barra_p" type="text" placeholder="Busque pelo nome..." value={filterName} onChange={(event) => setFilterName(event.target.value)}></input>                                             
+                </div>
+                <div className="filtros">
+                  <label>Campus</label>
+                  <select className="barra_f" value={filterCampus} onChange={(event) => setFilterCampus(event.target.value)}>
+                    <option >Todos</option> 
+                    {campus.map((campus) =>(
+                      <option key={campus} value={campus}>
+                        {campus}
+                      </option>
+                    ))}
+                  </select>
+                  <label>Institutos</label>
+                  <select className="barra_f" value={filterInstitute} onChange={(event) => setFilterInstitute(event.target.value)}>
+                    <option >Todos</option> 
+                    {institutes.map((institute) =>(
+                      <option key={institute} value={institute}>
+                        {institute}
+                      </option>
+                    ))}
+                  </select>
+                  <label>Tags</label>
+                  <div className="selected-tags">
+                    {selectedTags.map(tag => (
+                      <div key={tag} className="selected-tag">
+                        {tag}
+                        <span className="remove-tag" onClick={() => removeSelectedTag(tag)}>x</span>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="tags-list">
+                    {filteredTags.map(tag => (
+                      <div
+                        key={tag}
+                        className={`tag-item ${selectedTags.includes(tag) ? 'selected' : ''}`}
+                        onClick={() => addTagSelection(tag)}
+                      >
+                        {tag}
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </ul>
             </div>
         </div>
@@ -76,12 +179,7 @@ function ExtensionGroups() {
        <div className="conteudo">
        <h2 className="temapadrao mt-3">Grupos de extensão</h2>
 
-
-{institutes.map((institute) => (
-      <div key={institute.id} style={{ marginBottom: "40px" }}>
-        <h3>{institute.name}</h3> {/* Nome do instituto */}
-
-        <div
+      <div
           className="card-container"
           style={{
             display: "flex",
@@ -89,10 +187,10 @@ function ExtensionGroups() {
             justifyContent: "space-evenly",
           }}
         >
-          {institute.groups && institute.groups.length > 0 ? (
-            institute.groups.map((group) => (
+          {filteredGroups.length > 0 ? (
+            filteredGroups.map((group) => (
               <button
-                key={group.id}
+                key={group.name}
                 onClick={() => navigate(`/institute/`)} //mudar aqui para colocar link da rede social
                 style={{
                   background: "none",
@@ -106,7 +204,7 @@ function ExtensionGroups() {
               >
                 <Card
                   name={group.name}
-                  miniDescription={group.miniDescription}
+                  miniDescription={group.description}
                   logo={group.logo}
                 />
               </button>
@@ -116,11 +214,8 @@ function ExtensionGroups() {
           )}
         </div>
       </div>
-    ))}
 </div>
 </div>
-        </div>
-
     </Container>
   );
 }
