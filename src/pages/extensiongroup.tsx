@@ -3,6 +3,8 @@ import "./extensiongroup.css";
 import Card from "../components/Cards/Card";
 import { useNavigate } from "react-router-dom";
 import { Container } from 'react-bootstrap';
+import Form from 'react-bootstrap/Form';
+
 
 type Group = {
   institute: string;
@@ -129,27 +131,27 @@ function ExtensionGroups() {
             <div className="barra">
               <ul className="nav flex-column">
                 <div className="pesquisa">
-                  <input className="barra_p" type="text" placeholder="Busque pelo nome..." value={filterName} onChange={(event) => setFilterName(event.target.value)}></input>                                             
+                  <Form.Control className="barra_p" type="text" placeholder="Busque pelo nome..." value={filterName} onChange={(event) => setFilterName(event.target.value)}/>                                           
                 </div>
                 <div className="filtros">
                   <label>Campus</label>
-                  <select className="barra_f" value={filterCampus} onChange={(event) => setFilterCampus(event.target.value)}>
+                  <Form.Select className="barra_f" value={filterCampus} onChange={(event) => setFilterCampus(event.target.value)}>
                     <option >Todos</option> 
                     {campus.map((campus) =>(
                       <option key={campus} value={campus}>
                         {campus}
                       </option>
                     ))}
-                  </select>
+                  </Form.Select>
                   <label>Institutos</label>
-                  <select className="barra_f" value={filterInstitute} onChange={(event) => setFilterInstitute(event.target.value)}>
+                  <Form.Select className="barra_f" value={filterInstitute} onChange={(event) => setFilterInstitute(event.target.value)}>
                     <option >Todos</option> 
                     {institutes.map((institute) =>(
                       <option key={institute} value={institute}>
                         {institute}
                       </option>
                     ))}
-                  </select>
+                  </Form.Select>
                   <label>Tags</label>
                   <div className="selected-tags">
                     {selectedTags.map(tag => (
@@ -191,7 +193,7 @@ function ExtensionGroups() {
             filteredGroups.map((group) => (
               <button
                 key={group.name}
-                onClick={() => navigate(`/institute/`)} //mudar aqui para colocar link da rede social
+                onClick={() => window.open(group.link, "_blank")}
                 style={{
                   background: "none",
                   border: "none",
