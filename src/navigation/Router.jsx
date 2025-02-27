@@ -3,13 +3,13 @@ import Footer from '../components/footer/Footer';
 import ExtensionGroups from "../pages/extensiongroup";
 import Info from "../pages/Info";
 import NotFound from "../pages/NotFound";
-import Navbar_result from "./Navbar";
+import NavbarResult from "./Navbar";
 
 
 // Layout principal com o Navbar e Footer
 const MainLayout = () => (
   <div>
-    <Navbar_result />
+    <NavbarResult />
     <Outlet /> 
     <Footer />
   </div>
@@ -38,7 +38,7 @@ const router = createHashRouter([
     ],
     errorElement: (
       <div>
-        <Navbar_result />
+        <NavbarResult />
         <NotFound />  
       </div>
     ),

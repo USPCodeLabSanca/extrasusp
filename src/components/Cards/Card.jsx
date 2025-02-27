@@ -1,6 +1,4 @@
 import React from 'react';
-import style from './card.css';
-
 
 function Card({ name, miniDescription, logo }) {
   return (

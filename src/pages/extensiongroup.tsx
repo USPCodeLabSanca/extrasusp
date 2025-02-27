@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Container } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import Card from "../components/Cards/Card";
 import "./extensiongroup.css";
 
@@ -21,11 +21,11 @@ function ExtensionGroups() {
   const [filteredGroups, setFilteredGroups] = useState<Group[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false); // Estado para indicar erro
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [filterName, setFilterName] = useState("");
   const [filterCampus, setFilterCampus] = useState("");
   const [filterInstitute, setFilterInstitute] = useState("");
-  const [filterTags, setFilterTags] = useState("");
+  const [filterTags] = useState("");
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
 
   // Função para buscar os dados de todos os grupos
