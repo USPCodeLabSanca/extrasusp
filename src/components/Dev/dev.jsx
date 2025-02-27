@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import style from "./dev.css";
 
 export default function DeveloperCard({ nome, foto, curso, idade, linkedin }) {
     const imagePath = `/img/${foto}`;
@@ -7,13 +6,13 @@ export default function DeveloperCard({ nome, foto, curso, idade, linkedin }) {
   return (
     <div
       className="card border rounded-3 shadow-sm p-3 d-flex flex-row align-items-center"
-      style={{ maxWidth: "450px" }}
+      style={{ width: "100%" }}
     >
       <img
         src={imagePath}
         alt={nome}
         className="rounded-circle me-3"
-        style={{ width: "60px", height: "60px", objectFit: "cover" }}
+        style={{ minWidth: "60px", height: "60px", objectFit: "cover" }}
       />
       <div>
         <h5 className="fw-bold mb-1">
