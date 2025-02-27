@@ -6,7 +6,7 @@ export default function DeveloperCard({ nome, foto, curso, idade, linkedin }) {
   return (
     <div
       className="card border rounded-3 shadow-sm p-3 d-flex flex-row align-items-center"
-      style={{ width: "100%" }}
+      style={{ width: "100%", height: "unset" }}
     >
       <img
         src={imagePath}
