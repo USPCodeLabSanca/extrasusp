@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import "./extensiongroup.css";
-import Card from "../components/Cards/Card";
-import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { Container } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
+import { useNavigate } from "react-router-dom";
+import Card from "../components/Cards/Card";
+import "./extensiongroup.css";
 
 
 type Group = {
@@ -163,6 +163,7 @@ function ExtensionGroups() {
                   </div>
                   <div className="tags-list">
                     {filteredTags.map(tag => (
+                      selectedTags.includes(tag) ? null :
                       <div
                         key={tag}
                         className={`tag-item ${selectedTags.includes(tag) ? 'selected' : ''}`}
@@ -179,7 +180,7 @@ function ExtensionGroups() {
     </div>
     <div className="col-lg-10 col-sm-8 ml-auto" id="main">
        <div className="conteudo">
-       <h2 className="temapadrao mt-3">Grupos de extensão</h2>
+       <h2 className="temapadrao mt-3">Grupos</h2>
 
       <div
           className="card-container"
