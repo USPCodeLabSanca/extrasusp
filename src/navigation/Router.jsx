@@ -1,9 +1,9 @@
-import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
-import Info from "../pages/Info";
-import Navbar_result from "./Navbar";
-import NotFound from "../pages/NotFound";
+import { createHashRouter, Outlet, RouterProvider } from "react-router-dom";
 import Footer from '../components/footer/Footer';
 import ExtensionGroups from "../pages/extensiongroup";
+import Info from "../pages/Info";
+import NotFound from "../pages/NotFound";
+import Navbar_result from "./Navbar";
 
 
 // Layout principal com o Navbar e Footer
@@ -16,7 +16,7 @@ const MainLayout = () => (
 );
 
 // Definindo as rotas com o layout principal
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <MainLayout />, 

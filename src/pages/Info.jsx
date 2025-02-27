@@ -1,6 +1,6 @@
-import { Container, Row, Col} from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import DeveloperCard from '../components/Dev/dev';
-import devs from "../pages/dev.json";
+import devs from "./dev.json";
 import './Info.css';
 
 const Info = () =>{

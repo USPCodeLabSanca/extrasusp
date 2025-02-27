@@ -31,7 +31,7 @@ function ExtensionGroups() {
   // Função para buscar os dados de todos os grupos
   const fetchGroups = async () => {
     try {
-      const response = await fetch("/groups.json");
+      const response = await fetch("./groups.json");
       if (!response.ok) {
         throw new Error("Erro ao carregar os dados.");
       }

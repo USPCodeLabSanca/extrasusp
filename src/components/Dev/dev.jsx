@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function DeveloperCard({ nome, foto, curso, idade, linkedin }) {
-    const imagePath = `/img/${foto}`;
+    const imagePath = `./img/${foto}`;
 
   return (
     <div
