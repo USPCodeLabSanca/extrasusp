@@ -1,0 +1,51 @@
+[
+    {
+        "nome": "Carolina Gomes Guerreiro",
+        "idade": "18",
+        "foto": "carol.jpeg",
+        "curso": "Sistemas de Informação -  Instituto De Ciências Matemáticas e de Computação - USP",
+        "linkedin": "https://www.linkedin.com/in/carolina-guerreiro-b3b0b4277"
+
+    },
+
+    {
+        "nome": "Larissa de Melo Andrade",
+        "idade": "19",
+        "foto": "larissa.jpeg",
+        "curso": "Sistemas de Informação -  Instituto De Ciências Matemáticas e de Computação - USP",
+        "linkedin": "https://www.linkedin.com/in/larissa-dma/"
+    },
+
+    {
+        "nome": "Marcel Henrique Rodrigues Batista",
+        "idade": "18",
+        "foto": "marcel.jpeg",
+        "curso": "Sistemas de Informação -  Instituto De Ciências Matemáticas e de Computação - USP",
+        "linkedin": "https://www.linkedin.com/in/marcel-henrique-rodrigues-batista-846180226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    },
+
+    {
+        "nome": "Manassés Arange de Moura",
+        "idade": "18",
+        "foto": "manasses.jpeg",
+        "curso": "Sistemas de Informação -  Instituto De Ciências Matemáticas e de Computação - USP",
+        "linkedin": "https://www.linkedin.com/in/manass%C3%A9s-arange-de-moura/"
+    },
+
+    {
+        "nome": "Pedro Bernardo Rodrigues Pinto",
+        "idade": "18",
+        "foto": "pedro.jpeg",
+        "curso": "Sistemas de Informação -  Instituto De Ciências Matemáticas e de Computação - USP",
+        "linkedin": "https://www.linkedin.com/in/pedro-bernardo21"
+    },
+    {
+        "nome": "Yuri Donizete Claudino de Faria Santos",
+        "idade": "21",
+        "foto": "yuri.jpg",
+        "curso": "Sistemas de Informação -  Instituto De Ciências Matemáticas e de Computação - USP",
+        "linkedin": "https://www.linkedin.com/in/yfaria/"
+    }
+
+
+]

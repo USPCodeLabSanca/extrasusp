@@ -1,4 +1,6 @@
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
+import DeveloperCard from '../components/Dev/dev';
+import devs from "../pages/dev.json";
 import './Info.css';
 
 const Info = () =>{
@@ -26,6 +28,24 @@ Para cumprir a carga horária exigida, o aluno pode participar de atividades em 
                 As <b>Atividades Extensionistas Curriculares (AEX)</b> envolvem diversas formas de participação dos estudantes em atividades de extensão, com o objetivo de <b>conectar os conhecimentos adquiridos na Universidade à sociedade</b>. Sob a coordenação de docentes, os alunos irão desenvolver atividades que interagem com o público externo, permitindo que se aproximem do meio fora da universidade e ampliem seus conhecimentos <b>de maneira prática</b>. Essas atividades de extensão correspondem, no mínimo, a <b>10% (dez por cento)</b> do total da <b>carga horária curricular</b> do curso. Vale ressaltar que o <b>cumprimento das AEX é obrigatório </b> para todos os <b> ingressantes nos cursos de Graduação a partir de 2023. </b>
             </div>
 
+            <Container className="container-info">
+            <div className= "tema"> 
+                <span className="topico2">Desenvolvedores</span>
+            </div>
+            <Row>
+                {devs.map((dev, index) => (
+                    <Col md={6} key={index} className="d-flex justify-content-center">
+                        <DeveloperCard
+                            nome={dev.nome}
+                            idade={dev.idade}
+                            foto={dev.foto}
+                            curso={dev.curso}
+                            linkedin={dev.linkedin}
+                        />
+                    </Col>
+                ))}
+            </Row>
+        </Container>
         </Container>
     )
 }
