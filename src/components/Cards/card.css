@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: flex-start;
   width: 300px; 
+  height: 100%;
   margin: 10px;
   background-color: #ffffff;
   border: 1px solid #cfcfcf;
@@ -34,7 +35,7 @@
 
 .name {
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #555;
@@ -44,4 +45,10 @@
 .miniDescription {
   font-size: 14px;
   color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 95%;
+  }
 }
