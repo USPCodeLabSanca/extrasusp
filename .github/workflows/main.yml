@@ -1,0 +1,36 @@
+name: React CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - name: Stash git changes
+        working-directory: /home/codelabsc/extrasusp/
+        run: git stash
+
+      - name: Pull git changes
+        working-directory: /home/codelabsc/extrasusp/
+        run: git pull origin main
+
+      - name: Install dependencies
+        working-directory: /home/codelabsc/extrasusp/
+        run: npm install
+
+      - name: Build App
+        working-directory: /home/codelabsc/extrasusp/
+        run: npm run build
+
+      - name: Prepare build directory
+        run: |
+          rm -rf /var/www/html/extras
+          mkdir -p /var/www/html/extras
+
+      - name: Deploy build
+        run: mv /home/codelabsc/extrasusp/build/* /var/www/html/extras/
