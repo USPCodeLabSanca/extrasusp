@@ -1,31 +1,33 @@
-
 .card {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 300px; 
+  width: 300px;
   height: 100%;
   margin: 10px;
   background-color: #ffffff;
   border: 1px solid #cfcfcf;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  overflow: hidden; /* Impede que as imagens saiam da área do card */
+  overflow: hidden;
+  /* Impede que as imagens saiam da área do card */
+  transition: 0.3s;
 }
 
-#grow:hover
-{
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
+#grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.3s;
 }
+
 .logo {
   margin: 10px;
   border-radius: 10px;
-  width: 50%; 
-  height: 200px; 
-  object-fit: cover; 
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
 }
 
 .content {
